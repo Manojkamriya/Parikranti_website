@@ -1,24 +1,59 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./components/Navbar";
+import Home from "./Pages/Home/Home";
+import About from "./Pages/About_Us/About";
+import GetInvolved from "./Pages/GetInvolved/GetInvolved";
+import Idea from "./Pages/Idea/Idea_S";
+import Index from "./Pages/Index_Page/Index_Page";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 function App() {
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Index />,
+    },
+    {
+      path: "/home",
+      element: (
+        <>
+          <Navbar /> <Home />
+        </>
+      ),
+    },
+    {
+      path: "/getInvolved",
+      element: (
+        <>
+          {" "}
+          <Navbar />
+          <GetInvolved />
+        </>
+      ),
+    },
+    {
+      path: "/about",
+      element: (
+        <>
+          <Navbar />
+          <About />
+        </>
+      ),
+    },
+    {
+      path: "/idea",
+      element: (
+        <>
+          <Navbar />
+          <Idea />
+        </>
+      ),
+    },
+  ]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {" "}
+      <RouterProvider router={router} />
+    </>
   );
 }
 

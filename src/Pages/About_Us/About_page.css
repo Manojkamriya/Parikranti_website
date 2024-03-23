@@ -1,0 +1,88 @@
+.graphic_img{
+  background-image: url('/public/Images/about_us.png');
+   background-size: 100% 100%;
+   height: 650px;  
+}
+
+.main_div{
+  height: 1600px;
+}
+.lower_main_div{ 
+    height: 950px;
+}
+
+.info{
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.vision_div{
+  
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  width: 40vw; 
+}
+
+.vision_div #h2-1{
+  margin: 50px 0px 0px 1px;
+color: green;
+}
+
+.vision_div #h2-2{
+  color: rgb(255, 115, 0);
+}
+
+.vision_div #h2-3{
+  color: rgb(106, 106, 201);
+}
+.vision_div h2,p{
+  text-align: center;
+}
+
+.admin_div{
+  
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  
+      height: 45%;
+  }
+  .team_member_div{
+  background: transparent;
+  width: 60vw;
+  }
+  
+  .core_team_member{
+     
+      border-radius: 10px;
+      border: 1px solid rgba( 255, 255, 255, 0.18 );
+      display: flex;
+      flex-direction: row;
+       justify-content: space-around;
+       flex-wrap: wrap;
+       gap: 5px;
+      width: 100%;
+       height: 55%;
+  }
+#contact_us{
+  margin-top: 30px;
+}
+
+.contact_us{
+  background-color: rgba(0, 0, 0, 0.151);
+  display: flex;
+  margin-top: 5px;
+  margin-left: 80px;
+  border-radius: 30px;
+height: 50px;
+width: 350px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.icon{
+  height: 30px;
+  width: 30px;
+}

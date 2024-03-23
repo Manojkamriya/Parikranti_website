@@ -1,0 +1,59 @@
+.main_div{
+ height: 1600px;
+ background-color: rgb(240, 246, 253);
+}
+
+
+.image_div{
+  background-image: url('/public/Images/Idea_Strategy_image.jpg');
+ height: 570px;
+ margin-bottom: 30px;
+ object-fit: cover;
+}
+
+.Outer_Of_4_div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  margin-top: 20px;
+  text-align: center;
+}
+
+p{
+margin: 10px 70px 70px 70px;
+text-align: justify;
+}
+
+.divs{
+  width: 690px;
+  height: 415px;
+  border-radius: 19px;
+  background-color: whitesmoke;
+  margin: 25px;
+  
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+}
+.divs:hover{
+  scale: 1.03;
+  transition: all 0.3s ease-in-out;
+}
+/*.Idea{
+  background-image: linear-gradient(to right, rgb(255, 0, 0) , yellow);
+}
+
+.Planning{
+  background-image: blue;
+}  
+
+.Strategy{
+  background-color: linear-gradient(to right, #008e9b ,#78CAD2);
+}
+
+.Impact{
+  background-color: #919ad6;
+}*/
+

@@ -1,0 +1,112 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body{
+  background-color: whitesmoke;
+  text-align: center;
+}
+* {
+    margin: 0px;
+  text-align: center;
+}
+
+#logo1{
+  display: flex;
+  left: 43.8%;
+  top: 1%;
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 10px;
+  cursor: pointer;
+  }
+
+#name_1{
+  overflow-wrap: break-word;
+ 
+  color: #2d777c;
+  margin-top: 210px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+
+.item{ 
+ 
+  width: 200px;
+   height: 100px;
+   display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdan;
+  border-radius: 10px;
+  margin: 15px;
+  margin-top: 25px;
+  padding: 20px;
+  font-size: 17px;
+  text-transform: uppercase;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+}
+.item:hover {
+  transform: scale(1.15);
+  
+  background-color: rgb(193, 188, 180);
+  transition: all 0.6s ease;
+}
+#boxrow1{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+ 
+}
+
+#boxrow2{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+
+
+.btn1{
+  padding: 16px 20px;
+  border: border-box;
+  background-color:rgb(228, 15, 15);
+  color: white;
+ /* border: 2px solid rgb(239, 239, 206);
+  background-color:rgb(19, 213, 97);
+  color: white;*/
+  font-weight: 700;
+  margin: 17px;
+  font-size: 1.5rem;
+   
+  border-radius: 36px;
+  cursor:pointer;
+}
+.btn1:hover{
+  background-color: whitesmoke;
+ 
+    color: black;
+    border: 2.5px solid red;
+    
+ /* border: 2.5px solid rgb(0, 255, 51);
+  box-shadow: 0 0 100px rgba(231, 85, 85, 0.2);*/
+}
