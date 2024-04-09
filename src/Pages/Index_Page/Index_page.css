@@ -65,7 +65,7 @@ body{
 .item:hover {
   transform: scale(1.15);
   
-  background-color: rgb(193, 188, 180);
+  background-color: rgb(193, 188, 180); 
   transition: all 0.6s ease;
 }
 #boxrow1{
