@@ -1,0 +1,29 @@
+
+.wp-icon{
+  background-color: rgb(48, 215, 81);
+  position: fixed;
+  width: 220px;
+   height: 52px;
+  bottom: 3%;
+  right: 2%;
+  border-radius: 55px;
+  border: none;
+}
+.wp-icon  a{
+  display: flex;
+  flex-direction: row;  
+  text-decoration: none;
+}
+.text{
+  font-size: 16px;
+  padding: 15px 0px 0px 0px;
+  color: azure;
+
+}
+#icon{
+  width: 50px;
+  height: 48px;
+  
+  padding-left: 2px;
+    border-radius: 50%;
+  }

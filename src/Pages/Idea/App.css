@@ -38,22 +38,7 @@ text-align: justify;
   box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
 }
 .divs:hover{
-  scale: 1.03;
+  scale: 1.01;
+  background-color: rgb(248, 244, 237);
   transition: all 0.3s ease-in-out;
 }
-/*.Idea{
-  background-image: linear-gradient(to right, rgb(255, 0, 0) , yellow);
-}
-
-.Planning{
-  background-image: blue;
-}  
-
-.Strategy{
-  background-color: linear-gradient(to right, #008e9b ,#78CAD2);
-}
-
-.Impact{
-  background-color: #919ad6;
-}*/
-

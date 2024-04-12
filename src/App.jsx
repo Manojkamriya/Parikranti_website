@@ -1,22 +1,26 @@
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer"
 import Home from "./Pages/Home/Home";
 import About from "./Pages/About_Us/About";
 import GetInvolved from "./Pages/GetInvolved/GetInvolved";
 import Idea from "./Pages/Idea/Idea_S";
 import Index from "./Pages/Index_Page/Index_Page";
+import Login from "./Pages/Login/login_page";
+import Donation from "./Pages/Donation/Donation_page";
+import WhatsAppIcon from "./components/WhatsAppIcon";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Index />,
+      element:<> <Index /> <WhatsAppIcon/></>,
     },
     {
       path: "/home",
       element: (
         <>
-          <Navbar /> <Home />
+          <Navbar /> <Home /><WhatsAppIcon/>
         </>
       ),
     },
@@ -26,7 +30,16 @@ function App() {
         <>
           {" "}
           <Navbar />
-          <GetInvolved />
+          <GetInvolved /><WhatsAppIcon/>
+        </>
+      ),
+    },
+    
+    {
+      path: "/donation",
+      element: (
+        <>
+          <Navbar /> <Donation /><WhatsAppIcon/><Footer/>
         </>
       ),
     },
@@ -35,7 +48,15 @@ function App() {
       element: (
         <>
           <Navbar />
-          <About />
+          <About /><WhatsAppIcon/>
+        </>
+      ),
+    },
+    {
+      path: "/login",
+      element: (
+        <>
+         <Login />
         </>
       ),
     },
@@ -44,7 +65,7 @@ function App() {
       element: (
         <>
           <Navbar />
-          <Idea />
+          <Idea /><WhatsAppIcon/>
         </>
       ),
     },

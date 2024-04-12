@@ -27,6 +27,10 @@ body {
    
     border-radius: 18px;
     }
+    .img2:hover{
+      transform: scale(1.05);
+      cursor: pointer;
+    }
                         /* suggestion box starts*/
     
     .suggestion-container{
@@ -50,7 +54,8 @@ body {
     
     .para_S{
       padding-top: 15px;
-      
+      margin-left: 0px;
+      justify-content: left;
     }
     
     #suggestion-box {
@@ -68,11 +73,14 @@ body {
     }
     
     label {
+      width: fit-content;
       margin-bottom: 8px;
       font-weight: bold;
       color: #333;
     }
-    
+    option{
+      font-size: 15px;
+    }
     select,
     textarea {
       width: calc(100% - 12px);
@@ -83,7 +91,7 @@ body {
       box-sizing: border-box;
       background-color: #f9f9f9;
     }
-    
+  
     textarea {
       resize: vertical; 
     }

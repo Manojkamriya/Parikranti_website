@@ -1,0 +1,62 @@
+
+
+
+body.active-modal{
+    overflow-y: hidden;
+}
+.btn-model{
+padding: 10px 20px;
+display: block;
+margin: 100px auto 0;
+font-size: 18px;
+
+}
+
+.modal, .overlay{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    overflow: auto;
+}
+.overlay{
+    background: rgba(107, 104, 104, 0.8);
+
+    
+}
+
+.title{
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#phone_no{
+    width: 125px;
+}
+.form_input {
+   margin-bottom: 14px;
+   text-align: left;
+    height: 35px;
+    width: 499px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 2px solid rgb(221, 213, 213);
+}
+.form_textarea{
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    margin-bottom: 14px;    
+     width: 499px;
+     font-size: 16px;
+     border-radius: 3px;
+     border: 2px solid rgb(221, 213, 213);
+}

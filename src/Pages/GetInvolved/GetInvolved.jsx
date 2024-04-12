@@ -1,10 +1,18 @@
-import React from "react";
+
+import React, { useState } from 'react';
 import styled, { keyframes, css } from "styled-components";
+import './Modal.css';
+import PopUp from '../../components/PopUp';
 
 import WhyUs from "./WhyUs";
 import './style.css';
 
 function App() {
+  const [modal, setModal] = useState(false);
+
+  const toggleModal = () => {
+    setModal(!modal);
+  };
   const row1 = [
     "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/7ae42bac3b34999c0db3.png",
     "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/b2bd91d7b87b2181ca45.png",
@@ -27,7 +35,9 @@ function App() {
     
 <img src='./Images/GetInvolved.png' alt=""></img>
 <WhyUs/>
-<button type="button" className="btn"> Get Involved</button>
+
+<button typ="button" className="btn" onClick={toggleModal}>Get Involved</button>
+      {modal && <Modal toggleModal={toggleModal}/>}
 
     <AppContainer>
     
@@ -73,14 +83,25 @@ function App() {
   );
 
 }
-
+function Modal({ toggleModal }) {
+  return (
+    <div className="modal">
+      <div onClick={toggleModal} className="overlay"></div>
+      <div className="modal-content">
+        <PopUp/>
+        <button className="close-modal" onClick={toggleModal}>
+          <img src='./Images/cross.png' id='cross_img' alt='error'></img>
+        </button>
+      </div>
+    </div>
+  );
+}
 export default App;
 
 const AppContainer = styled.div`
  
   color: #000000;
-
-  position: relative;
+ 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -88,7 +109,7 @@ const AppContainer = styled.div`
 
 const Wrapper = styled.div`
   width: 100%;
- 
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -114,7 +135,7 @@ const Marquee = styled.div`
   width: 1200px;
   overflow: hidden;
   user-select: none;
-
+ 
   mask-image: linear-gradient(
     to right,
     hsl(0 0% 0% / 0),
@@ -158,12 +179,14 @@ const ImageGroup = styled.div`
   place-items: center;
   width: clamp(10rem, 1rem + 40vmin, 30rem);
   padding: calc(clamp(10rem, 1rem + 30vmin, 30rem) / 10);
+  
 `;
 
 const Image = styled.img`
   object-fit: contain;
   width: 100%;
   height: 100%;
+  
   /* border: 1px solid black; */
   border-radius: 0.5rem;
   aspect-ratio: 16/9;

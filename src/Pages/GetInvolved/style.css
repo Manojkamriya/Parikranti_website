@@ -38,8 +38,7 @@ body {
 
 .para_W{
   font-family: Poppins;
-    padding-top: 30px;
-    padding-bottom: 10px;
+
 }
 .btn{
     padding: 16px 100px;
@@ -50,7 +49,7 @@ body {
     margin: 17px;
     font-size: 1.5rem;
     font-weight: 900;
- 
+    transition: all 0.3s ease-in;
     border-radius: 45px;
     cursor:pointer;
   }
