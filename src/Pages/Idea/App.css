@@ -6,7 +6,7 @@
 
 .image_div{
   background-image: url('/public/Images/Idea_Strategy_image.jpg');
- height: 570px;
+ height: 610px;
  margin-bottom: 30px;
  object-fit: cover;
 }
@@ -38,7 +38,7 @@ text-align: justify;
   box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
 }
 .divs:hover{
-  scale: 1.01;
+  scale: 1.009;
   background-color: rgb(248, 244, 237);
   transition: all 0.3s ease-in-out;
 }

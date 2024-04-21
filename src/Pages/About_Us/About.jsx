@@ -7,9 +7,9 @@ function About() {
     <>
       
         <div className="lower_div">
-          <div className="graphic_img">
-           <img src="./Images/about_us.png" alt="" />
-          </div>
+        
+           <img className="graphic_img" src="./Images/about_us.png" alt="" />
+         
           <div className="info">
             <div className="vision_div">
               <h2 id="h2-1">VISION</h2>

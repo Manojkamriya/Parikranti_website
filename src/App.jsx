@@ -39,7 +39,7 @@ function App() {
       path: "/donation",
       element: (
         <>
-          <Navbar /> <Donation /><WhatsAppIcon/><Footer/>
+          <Navbar /> <Donation /><WhatsAppIcon/>
         </>
       ),
     },

@@ -13,9 +13,9 @@ function SuggestionContainer() {
   );
 }
 
-function SuggestionBox() {
+function SuggestionForm() {
   return (
-    <div id="suggestion-box">
+    <div id="suggestion-form">
       <form>
         <label htmlFor="goals">Choose a Goal:</label>
         <select id="goals" name="goals">
@@ -55,10 +55,10 @@ function SuggestionBox() {
 
 function Suggestion() {
   return (
-    <div>
+    <>
       <SuggestionContainer />
-      <SuggestionBox />
-    </div>
+      <SuggestionForm/>
+    </>
   );
 }
 

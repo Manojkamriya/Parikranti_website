@@ -8,9 +8,9 @@ const Donation = () => {
    <>
 
 
-   <img style={{width : '100vw', height : '98vh'}} src="./Images/donation.png" alt="error" />
+   <img src="./Images/donate-us.png" alt="error" />
 
-  <div style={{textAlign : 'center', margin : '2vh'}}>
+  {/* <div style={{textAlign : 'center', margin : '2vh'}}>
   
       <Button style={{fontSize : '3vh'}}
     color="danger">
@@ -20,7 +20,7 @@ const Donation = () => {
 
   <Figures/>
   
-  {/* <Card style={{height : '30vh' , fontWeight : 'bold',fontSize : '3vh'}}>Documents</Card> */}
+  <Card style={{height : '30vh' , fontWeight : 'bold',fontSize : '3vh'}}>Documents</Card> */}
    </>
 
   );
