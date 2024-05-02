@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer"
+
 import Home from "./Pages/Home/Home";
 import About from "./Pages/About_Us/About";
 import GetInvolved from "./Pages/GetInvolved/GetInvolved";

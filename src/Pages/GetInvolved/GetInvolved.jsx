@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import styled, { keyframes, css } from "styled-components";
-import './Modal.css';
+import '../../components/Modal.css';
 import PopUp from '../../components/PopUp';
 
 import WhyUs from "./WhyUs";
@@ -32,8 +32,9 @@ function App() {
 
   return (
     <>
-    
-<img src='./Images/GetInvolved.png' alt=""></img>
+    <div className="gi-container">
+<img className='gi-image' src='./Images/GetInvolved.png' alt=""></img>
+</div>
 <WhyUs/>
 
 <button typ="button" className="btn" onClick={toggleModal}>Get Involved</button>

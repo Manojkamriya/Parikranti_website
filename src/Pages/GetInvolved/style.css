@@ -4,22 +4,28 @@ body {
     text-align: center;
     padding: 0;
     background-color: white;
+
   }
   
-                     
+   .gi-container{
+    width: 100%;
+    height: 615px;
+   /* background: url(/public/Images/gi-bg.png)  center/cover no-repeat; */
+   /* background-size: auto; */
+   }                  
  img {
     width: 100%;
     height: 615px;
-   
+  
     display: block;
    
    
 }
-
+.gi-image{
+  opacity: 1;
+}
 .whyUs-container{
     display: flex;
-    
-    flex-direction: row;
     justify-content: center;
 }
 
@@ -32,13 +38,13 @@ body {
     margin: 15px;
     margin-top: 25px;
     padding: 20px;
-    font-size: 20px;
+    font-size: 18px;
   
 }
 
 .para_W{
   font-family: Poppins;
-
+  text-align: justify;
 }
 .btn{
     padding: 16px 100px;

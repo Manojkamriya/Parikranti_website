@@ -19,11 +19,11 @@
 }
 
 h1{
-  margin-top: 20px;
+  margin-top: 29px;
   text-align: center;
 }
 
-p{
+.page-content{
 margin: 10px 70px 70px 70px;
 text-align: justify;
 }
@@ -38,7 +38,7 @@ text-align: justify;
   box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
 }
 .divs:hover{
-  scale: 1.009;
+  /* scale: 1.009; */
   background-color: rgb(248, 244, 237);
   transition: all 0.3s ease-in-out;
 }

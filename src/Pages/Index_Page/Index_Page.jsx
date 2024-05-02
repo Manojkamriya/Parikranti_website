@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import './Index_page.css';
-import './Modal.css';
+import '../../components/Modal.css';
 import PopUp from '../../components/PopUp';
+import '../../components/popup.css';
 
 function Index_Page() {
   const [modal, setModal] = useState(false);

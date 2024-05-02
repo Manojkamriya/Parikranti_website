@@ -2,6 +2,7 @@
 import Carousel from "./Carousel";
 import media from "./Data";
 import Goal from './Goal';
+import '../../components/Modal.css';
 import Suggestion from "./Suggestion";
 import Modal from "./Modal";
 import './home.css';

@@ -7,7 +7,7 @@ function SuggestionContainer() {
        <img className="suggestion-content" src='/Images/suggestion.png' alt="" /> 
       <div className="suggestion-content">
         <h1 className="para_S">Share your suggestion</h1>
-        <p className="para_S">Your feedback is crucial for us. It guides our improvements, shapes our products, and ensures we meet your needs. It empowers us to innovate and stay relevant. Your input fosters partnership and drives our success.</p>
+        <p className="para_S">Your feedback is crucial for us. It guides our improvements, shapes our products, and ensures we meet your needs. It empowers us to innovate and stay relevant. Your input fosters partnership and drives our success.We understand that achieving the SDGs requires collaboration and partnership. Your feedback fosters a sense of partnership between our NGO and the communities we serve, as well as with other organizations and stakeholders.</p>
       </div>
     </div>
   );
