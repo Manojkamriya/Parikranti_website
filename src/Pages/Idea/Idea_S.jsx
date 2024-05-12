@@ -1,5 +1,5 @@
 
-import "./App.css";
+import "./idea.css";
 
 function Idea_S() {
   return (

@@ -1,5 +1,4 @@
 import Navbar from "./components/Navbar";
-
 import Home from "./Pages/Home/Home";
 import About from "./Pages/About_Us/About";
 import GetInvolved from "./Pages/GetInvolved/GetInvolved";
@@ -13,11 +12,11 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/index",
       element:<> <Index /> <WhatsAppIcon/></>,
     },
     {
-      path: "/home",
+      path: "/",
       element: (
         <>
           <Navbar /> <Home /><WhatsAppIcon/>

@@ -1,17 +1,10 @@
-import React from 'react'
-import './popup.css'
-export default function PopUp() {
-  return (
-    
-                
-            <> 
+import React from 'react';
 
- <div className='text-image'>
-              <img src='/Images/parikranti-image.png'/>
-            </div>
-            <h2 className='title'>Get In Touch</h2>
- <form>
-                <div className='my-fields'>
+function Form() {
+  return (
+    <form id='donation-form'>
+      <img className="parikranti-image" src='/Images/Parikranti-image.png'/>
+      <div className='my-fields'>
                 <div className='field'>
               <label className='form_label' for="username">Username</label>
                 <input className='form_input' type='text' placeholder='Enter your name' required>
@@ -66,45 +59,27 @@ export default function PopUp() {
                 <label className='form_label' for="pin">PIN Code</label>
   <input className='form_input' type="number" placeholder=" Enter your PIN Code" required></input>
 </div>
-</div>      
-<div className='my-fields'>
-                <div className='field'>
-                <label className='form_label' for="blood-group">Blood Group</label>
-        <select className='form-select' name="projects">
-          <option value="project1">A+</option>
-          <option value="project2">A-</option>
-          <option value="project3">B+</option>
-          <option value="project1">B-</option>
-          <option value="project2">AB+</option>
-          <option value="project3">AB-</option>
-          <option value="project1">O+</option>
-          <option value="project2">O-</option>
-          </select>
-                </div>
-                <div className='field'>
-               
-                <label className='form_label' for="query-topic">Query Topic</label>
-        <select  name="projects">
-          <option value="project1">Inernship</option>
-          <option value="project2">Voluntership</option>
-          <option value="project3">Collabration</option>
-          <option value="project1">Partnership</option>
-          <option value="project2">Donation</option>
-          <option value="project3">SDG-17</option>
-          <option value="project1">Others</option>
-
-          </select>   
 </div>
-</div>  
+<div className='pan-field'>
+<label className='form_label' for="username">PAN Card</label>
+      <input className='form_input' type='text' placeholder=' Enter your PAN Number'>
+      </input>
+      </div>
+      <div className='request'>  <p>Please note that if you do not provide your PAN Number, you will not be able to claim 50% tax exemption u/s 80G in India</p></div>
+<div className="checkbox-container">
+<input className='form_input' id="checkbox" type="checkbox"></input>
+<div className='declare'>I hereby declare that I am a citizen of India, making this donation out of my own funds. The information provided above is correct to the best of my knowledge. I know that all further communications will be done on contact details provided above</div>
+</div>
+< img className='form-image' src="./Images/cards-payment-strip2.png" alt="error"/>
+<p id='payment'>We accept all major payment methods</p>
+<div className='btn-container'>
 
-  <label className='form_label' for="message">Message:</label>
-  <textarea  className='form_textarea' rows="4" cols="50" placeholder="Enter your message"></textarea>
-  <button type="submit" className='form_sub'>Submit</button>
 
-              </form>
-             
-            
-              </>
-    
-  )
+<button className='donate' type="submit">Continue to Payment</button>
+<button className='donate'>Reset</button>
+</div>
+    </form>
+ 
+  );
 }
+export default Form;

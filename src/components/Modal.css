@@ -1,4 +1,4 @@
-body.active-modal{
+/* body.active-modal{
     overflow-y: hidden;
 }
 .modal, .overlay{
@@ -23,7 +23,7 @@ body.active-modal{
     position: absolute;
     /* top: 20%;
     left: 30%; */
-    border-radius: 10px;
+    /* border-radius: 10px;
      transform: translate(80%, 10%); 
     line-height: 1.4;
    background-color: #f1f1f1;
@@ -33,4 +33,4 @@ body.active-modal{
     max-width: 900px;
     min-width: 300px;
 
-}
+} */ 

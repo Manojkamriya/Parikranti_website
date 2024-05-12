@@ -1,5 +1,70 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+body.active-modal{
+    overflow-y: hidden;
+}
+.btn-model{
+padding: 10px 20px;
+display: block;
+margin: 100px auto 0;
+font-size: 18px;
+
+}
+
+.modal, .overlay{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    overflow: auto;
+}
+.modal{
+    z-index: 600;
+}
+.overlay{
+    background: rgba(49,49,49,0.8);
+
+    
+}
+.modal-content {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+   
+    transform: translate(-50%, -50%);
+
+    line-height: 1.4;
+   background-color: #f1f1f1;
+    padding: 14px 33px;
+    opacity: 1;
+   border-radius: 15px;
+    box-shadow: 0px 8px 16px rgba(0,0,0, 0.3);
+    max-width: 900px;
+    min-width: 300px;
+    animation: fadeIn 0.3s ease-in-out, slideUp 0.5s ease-in-out; 
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideUp {
+    from {
+      transform: translateY(0%,-50%);
+    }
+    to {
+      transform: translateY(-50%,-50%);
+    }
+  }
+  
 #cross_img{
     height: 20px;
     width: 20px;
@@ -14,75 +79,104 @@
     border-radius: 20px;
     border: rgb(228,15,15);
     padding: 6px 10px;
-    background-color: #f1f1f1;
+    background-color: transparent;
 }
+
 form{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    flex-wrap: wrap;
+}
+.form_label {
+    margin-left: 0px;
+  width: fit-content;
+  margin-bottom: 4px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+    font-weight: 500;
+}
+.text-image{
+    display: flex;
+    justify-content: center;
+}
+.text-image img{
+    padding-top: 20px;
+    height: 40px;
+    margin: 5px;
+    width: auto;
+}
+.title{
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 0px;
+}
+.my-fields{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.field{
     display: flex;
     flex-direction: column;
 }
 /* #phone_no{
     width: 125px;
 } */
-.title{
-    font-family: sans-serif;
-    margin-bottom: 20px;
-    font-weight: 900;
-    font-size: 30px;
-    margin-top: 20px;
-}
-
-.form_label {
-    
-    margin-left: 0px;
-      width: fit-content;
-      margin-bottom: 4px;
-      font-size: 17px;
-        font-weight: 500;
-    }
-
 .form_input {
-   margin-bottom: 14px;
+   margin-bottom: 10px;
    text-align: left;
-    height: 35px;
-    width: 499px;
-    font-size: 16px;
-    border-radius: 3px;
+    height: 26px;
+    font-family: 'Poppins', sans-serif;
+    width: 200px;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
     border: 2px solid rgb(221, 213, 213);
+}
+select{
+    height: 26px;
+    width: 200px;
+    margin-bottom: 10px;
+    text-align: left;
+    outline: none;
+}
+option{
+    text-align: left;
+   outline: none;
 }
 .form_textarea{
     font-family: 'Poppins', sans-serif;
     text-align: left;
     margin-bottom: 14px;    
-     width: 499px;
-     font-size: 16px;
-     border-radius: 3px;
+     width: 434px;
+     height: 80px;
+     outline: 0cap;
+     font-size: 14px;
+     border-radius: 5px;
      border: 2px solid rgb(221, 213, 213);
-}
-.btn-container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-option{
-    text-align: left;
-   
 }
 .form_sub{
     outline: none;
     height: 40px;
     text-align: center;
-    width: 180px;
+    width: 230px;
     border-radius: 40px;
-   background-color: #1ECD97;
+   /* background-color: #1ECD97; */
+   background-color: #1ecd35;
     color: #fff;
    
     font-size: 15px;
     font-weight: bold;
-    /* margin-left: 28%; */
+    margin-left: 25%;
     margin-top: 10px;
     cursor: pointer;
-    border: 2px solid #35cd1e;
+    /* border: 2px solid #1ECD97; */
+    border: none;
     transition: all 0.25s ease;
 
 }
@@ -91,5 +185,6 @@ option{
     color: #1ECD97;
     border: 2px solid #1ECD97;
 }
-
-
+input:focus{
+  border: 1px solid #a48139;
+}

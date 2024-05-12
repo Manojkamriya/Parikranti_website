@@ -18,7 +18,7 @@ function SuggestionForm() {
     <div id="suggestion-form">
       <form>
         <label htmlFor="goals">Choose a Goal:</label>
-        <select id="goals" name="goals">
+        <select className='sugg-select'id="goals" name="goals">
           <option value="goal1">No Poverty</option>
           <option value="goal2">Zero Hunger</option>
           <option value="goal4">Good health and well-being</option>
@@ -39,7 +39,7 @@ function SuggestionForm() {
          
         </select>
         <label htmlFor="projects">Choose a Project:</label>
-        <select id="projects" name="projects">
+        <select className='sugg-select' id="projects" name="projects">
           <option value="project1">Project 1</option>
           <option value="project2">Project 2</option>
           <option value="project3">Project 3</option>

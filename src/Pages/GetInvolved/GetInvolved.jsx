@@ -33,7 +33,7 @@ function App() {
   return (
     <>
     <div className="gi-container">
-<img className='gi-image' src='./Images/GetInvolved.png' alt=""></img>
+<img className='gi-image' src='./Images/GetInvolved.png' alt="Get Involved"></img>
 </div>
 <WhyUs/>
 
@@ -76,6 +76,7 @@ function App() {
                 <Image src={el} />
               </ImageGroup>
             ))}
+          
           </MarqueeGroup2>
         </Marquee>
       </Wrapper>

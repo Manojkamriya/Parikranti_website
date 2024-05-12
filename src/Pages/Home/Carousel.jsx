@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import { useState } from "react";
-// import "./Carousel.css";
 
 function Carousel( {images} ) {
   const [current, setCurrent] = useState(0);
@@ -8,7 +7,7 @@ function Carousel( {images} ) {
   let timeOut = null;
 
   useEffect(() => {
-    timeOut = autoPlay && setTimeout(slideRight, 3000);
+    timeOut = autoPlay && setTimeout(slideRight, 9000);
   
     return () => {
       clearTimeout(timeOut); 
@@ -28,9 +27,7 @@ function Carousel( {images} ) {
       <div className="carousel_wrapper">
         {images.map((image, index) => {
           return (
-
-
-            <div
+           <div
               key={index}
               className={
                 index === current
@@ -39,8 +36,7 @@ function Carousel( {images} ) {
               }
             >
               <img className="card_image" src={image.image} alt="" />
-
-            </div>
+           </div>
           );
         })}
         <div className="carousel_arrow_left" onClick={slideLeft}>
@@ -68,5 +64,4 @@ function Carousel( {images} ) {
     </div>
   );
 }
-
 export default Carousel;
