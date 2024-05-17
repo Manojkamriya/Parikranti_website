@@ -46,7 +46,7 @@ function SuggestionForm() {
          
         </select>
         <label htmlFor="suggestion">Your Suggestion:</label><br />
-        <textarea id="suggestion" name="suggestion" rows="4" required></textarea>
+        <textarea id="suggestion" name="suggestion" rows="4"  placeholder='Enter your suggestion here' required></textarea>
         <input type="submit" value="Submit" />
       </form>
     </div>

@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import Home from "./Pages/Home/Home";
-import About from "./Pages/About_Us/About";
+import About from "./Pages/AboutUs/About";
 import GetInvolved from "./Pages/GetInvolved/GetInvolved";
 import Idea from "./Pages/Idea/Idea_S";
 import Index from "./Pages/Index_Page/Index_Page";

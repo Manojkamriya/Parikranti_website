@@ -8,7 +8,7 @@ export default function Navbar() {
   <nav id="navbar">
 <div id="logo-container">
   <Link to='/'><img id='logo' src='/Images/white_logo.png' alt="error"/></Link>
-   <img id="text-image"src='/Images/parikranti-text.png'/>
+   <img id="text-image"src='/Images/parikranti-text.png'  alt="error"/>
 </div>
 <div id="sign">
   <Link to='/login'>

@@ -7,7 +7,7 @@ export default function PopUp() {
             <> 
 
  <div className='text-image'>
-              <img src='/Images/parikranti-image.png'/>
+              <img src='/Images/parikranti-image.png'  alt="error"/>
             </div>
             <h2 className='title'>Get In Touch</h2>
  <form>
@@ -85,7 +85,7 @@ export default function PopUp() {
                
                 <label className='form_label' for="query-topic">Query Topic</label>
         <select  name="projects">
-          <option value="project1">Inernship</option>
+          <option value="project1">Internship</option>
           <option value="project2">Voluntership</option>
           <option value="project3">Collabration</option>
           <option value="project1">Partnership</option>

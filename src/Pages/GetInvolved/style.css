@@ -9,13 +9,13 @@ body {
   
    .gi-container{
     width: 100%;
-    height: 615px;
+    height: 445px;
    /* background: url(/public/Images/gi-bg.png)  center/cover no-repeat; */
    /* background-size: auto; */
    }                  
  img {
     width: 100%;
-    height: 615px;
+    height: 100%;
   
     display: block;
    
@@ -24,6 +24,9 @@ body {
 .gi-image{
   opacity: 1;
 }
+
+                            /* Why-Us starts */
+
 .whyUs-container{
     display: flex;
     justify-content: center;
@@ -41,10 +44,16 @@ body {
     font-size: 18px;
   
 }
-
+.whyUs-container h1{
+  margin-bottom: 15px;
+}
+.whyUs-container p{
+  font-size: 17px;
+}
 .para_W{
   font-family: Poppins;
   text-align: left;
+  margin: 0px;
 }
 .btn{
     padding: 16px 100px;
@@ -66,5 +75,6 @@ body {
     box-shadow: 0 0 100px rgba(231, 85, 85, 0.2);
   }
                           
+                            /* Why-Us Ends */
 
                              

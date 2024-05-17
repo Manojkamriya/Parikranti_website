@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background-color:white; */
+  /* text-align: center; */
+}
+
+    .header-image{
+display: flex;
+justify-content: center;
+width: 100%;
+height: 485px;
+    }   
+.img3 {
+  width: 93%;
+  height: 100%px;
+  
+  border-radius: 0px 0px 14px 14px;
+ 
+ }
+#VMF{
+  margin: 34px;
+  display: flex;
+}
+#VMF .box{ 
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+ padding: 25px;
+ margin: 8px 20px 8px 20px;
+ border-radius: 13px;
+ background-color: #edecec;
+  margin-bottom: 20px;
+  width: 30%;
+  height: 170px;
+}
+.box h2, .box p{
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box h2{
+  margin-bottom: 10px;
+}
+/* #VSM .box :hover{
+  background-color: wheat;
+  transform: scale(1.05);
+} */
+#VSM .box {
+  /* animation: fadeInOut 4s forwards; /* Adjust the duration as needed */
+  /* opacity: 0; Start with transparency */ 
+}
+
+/* @keyframes fadeInOut {
+  0% {
+      opacity: 0;
+  }
+  50% {
+      opacity: 0.5;
+  }
+  100% {
+      opacity: 1;
+  }
+} */
+
+
+img #VMF .box { 
+ height: 60px;
+ margin: auto;
+ display: block;
+}
+
+.h-primary{
+  font-size: 3rem;
+  padding: 12px;
+}
+.statement-heading{
+ 
+  font-size: 2.3rem;
+  padding: 12px 0px 0px 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+#goal{
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Helvetica', sans-serif;
+  color: #313030;
+
+}     
+
+#about{
+  margin: 34px;
+  display: flex;
+}
+.img7{
+  height: 200px;
+  width: 200px;
+  }
+.about-box{ 
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+ padding: 34px;
+ margin: 18px 20px;
+ border-radius: 13px;
+ /* background: #f2f2f2; */
+  margin-bottom: 20px;
+  background-color: #edecec;
+ 
+}
+.about-box2{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  padding: 20px 34px;
+  margin: 18px 20px;
+  border-radius: 13px;
+  /* background: #f2f2f2; */
+   margin-bottom: 20px;
+   background-color: #edecec;
+  height: 260px;
+}
+.about-box2 h2 , .about-box2 p{
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.about-box2 h2{
+  margin-bottom: 15px;
+}
+#card{
+ 
+  height: 300px;
+  width: 400px;
+
+}
+.grid-container{
+  display: flex;
+  /* grid-gap: 6rem;
+  grid-template-columns: 160px 160px 160px 160px 160px;
+   */
+   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.grid-container .about-box{ 
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+ padding: 34px;
+ /* margin: 18px 20px; */
+ border-radius: 13px;
+ background: #f2f2f2;
+  margin-bottom: 20px;
+height: 175px;
+width: 175px;
+padding-bottom: 80px;
+transform-style: preserve-3d;
+backface-visibility: hidden;
+transition: all 0.4s ease-in-out;
+}
+.about-box:hover{
+transform: scale(1.1);
+transform: rotateY(180deg);
+}
+.img7{
+  height: 200px;
+  width: 200px;
+  }
+ .image-container{
+  overflow: hidden;
+ }
+  .gallery {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-auto-rows: 200px;
+      grid-auto-flow: dense;
+      margin-left: 7%;
+      margin-right: 7%;
+    
+      width: 85%;
+  }
+  .gallery > div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .gallery > div > img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 5px;
+  }
+  .gallery .tall {
+      grid-row: span 2;
+  }
+  .img4 {
+      max-width: 100%;
+      height: auto;
+      vertical-align: middle;
+      display: inline-block;
+      transition: all 0.2s ease-in-out;
+  }
+  .img5 { 
+      max-width: 100%;
+      height: auto;
+      vertical-align: middle;
+      display: inline-block;
+      border: 0.3px solid black;
+      transition: all 0.2s ease-in-out;
+  }
+  
+  .technical-team{
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-bottom: 90px;
+      flex-wrap: wrap;
+  }
+  .technical-member{
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      height: 350px;
+      border-radius: 9px;
+      width: 280px;
+  }
+  .technical-member p{
+    margin-top: 13px;
+    
+  }
+  .img6{
+      height: 85%;
+      width: 100%;
+      vertical-align: middle;
+      display: inline-block;
+      object-fit: cover;
+      transition: all 0.2s ease-in-out;
+  }
+  .img6:hover,.img5:hover, .img4:hover{
+  transform: scale(1.1);
+   
+  }
+
+
+ 

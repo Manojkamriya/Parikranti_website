@@ -3,7 +3,7 @@ import React from 'react';
 function Form() {
   return (
     <form id='donation-form'>
-      <img className="parikranti-image" src='/Images/Parikranti-image.png'/>
+      <img className="parikranti-image" src='/Images/Parikranti-image.png' alt="error"/>
       <div className='my-fields'>
                 <div className='field'>
               <label className='form_label' for="username">Username</label>
@@ -76,7 +76,7 @@ function Form() {
 
 
 <button className='donate' type="submit">Continue to Payment</button>
-<button className='donate'>Reset</button>
+{/* <button className='donate'>Reset</button> */}
 </div>
     </form>
  

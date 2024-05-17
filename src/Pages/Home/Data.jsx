@@ -11,6 +11,10 @@ const media = [
     title: "",
   },
   {
+    image: "./Images/Work-33.jpg",
+    title: "",
+  },
+  {
     image: "./Images/carousel-image-3.png",
     title: "",
   },

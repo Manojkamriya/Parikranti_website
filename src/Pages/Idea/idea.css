@@ -2,27 +2,22 @@
  height: 1600px;
  background-color: rgb(240, 246, 253);
 }
-
-
 .image_div{
   background-image: url('/public/Images/Idea_Strategy_image.jpg');
  height: 610px;
  margin-bottom: 30px;
  object-fit: cover;
 }
-
 .Outer_Of_4_div{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-
 h1{
   margin-top: 29px;
   text-align: center;
 }
-
 .page-content{
 margin: 10px 70px 70px 70px;
 text-align: justify;

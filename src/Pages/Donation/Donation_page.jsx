@@ -7,7 +7,7 @@ const Donation = () => {
    <>
 
     <div className="donation-image-container">
-   <img className="donate-img" src="./Images/donate-us.png" alt="error" /></div>
+   <img className="donate-img" src="./Images/donateus-image.jpg" alt="error" /></div>
    <section id='donate-form'>
    <div className="why-donate-Us-container">
      

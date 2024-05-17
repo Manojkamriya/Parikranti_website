@@ -40,10 +40,13 @@ function Carousel( {images} ) {
           );
         })}
         <div className="carousel_arrow_left" onClick={slideLeft}>
-          &lsaquo;
+        <p>
+          &lsaquo;</p>
+         
         </div>
         <div className="carousel_arrow_right" onClick={slideRight}>
-          &rsaquo;
+          <p>
+          &rsaquo;</p>
         </div>
         <div className="carousel_pagination">
           {images.map((_, index) => {
