@@ -19,7 +19,7 @@ function App() {
       path: "/",
       element: (
         <>
-          <Navbar /> <Home />
+          <Navbar /> <Home /><WhatsAppIcon/>
         </>
       ),
     },
@@ -54,7 +54,7 @@ function App() {
     {
       path: "/login",
       element: (
-        <>
+        <>   <Navbar />
          <Login />
         </>
       ),
