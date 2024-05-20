@@ -17,52 +17,56 @@ border-radius: 0px 0px 14px 14px;
     justify-content: center;
     gap: 1rem;
     margin-top: -20px;
-    /* flex-direction: row; */
-    /* justify-content: space-around; */
+   flex-wrap: wrap;
 }
 
 .why-donate-Us-content{ 
-
-    width: 620px;
+   width: 620px;
      height: auto;
-
-    /* border-radius: 40px; */
-    margin: 15px;
+  margin: 15px;
     margin-top: 25px;
     margin-right: 140px;
     padding: 20px;
     font-size: 25px;
   
 }
+.why-donate-Us-content h1{
+    text-align: left;
+}
 #donate-text{
     color: #3371ee;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
 }
 #payment{
     font-size: 16px;
     margin: 5px;
 }
-
- .para_D{
-  font-family: Poppins;
-  width: 670px;
-  text-align: left;
-font-size: 15px;
-margin-bottom: 18px;
-
-/* margin: 0px;
-padding: 0px; */
+.why-donate-Us-content p{
+    font-family: Poppins;
+    width: 670px;
+    text-align: left;
+  font-size: 16px;
+  margin-bottom: 18px;
+  
 }
+ 
                       /*Why Donate US Content Ends*/
                         /* Donation-Form Starts*/
 
 #donation-form{
-    /* border: 2px solid black; */
+  
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     
     margin-top: 90px;
     padding: 30px;
     border-radius: 12px;
+}
+.parikranti-image{
+    width: 160px;
+    height: 40px;
+    margin-left: 142px;
+    margin-bottom: 10px;
 }
 .pan-field{
     display: flex;
@@ -99,12 +103,7 @@ padding: 0px; */
     height: 40px;
     margin: 10px;
 }
-.parikranti-image{
-    width: 160px;
-    height: 40px;
-    margin-left: 142px;
-    margin-bottom: 10px;
-}
+
 
 .donate{
     outline: none;
@@ -113,13 +112,11 @@ padding: 0px; */
     width: 80%;
     border-radius: 40px;
    background-color: #eeee33;
-   /* background-color: #ffd852; */
-    /* color: #251f0a;
-   color: #0F1111; */
+  
    color: #232f3e;
     font-size: 15px;
     font-weight: 700;
-    /* margin-left: 28%; */
+    
     margin: 10px 10px 10px 10px;
     cursor: pointer;
     border: none;
@@ -129,8 +126,7 @@ padding: 0px; */
 .donate:hover{
     background: #fff;
     color: #232f3e;
-    /* color: #251f0a;
-    border: 3px solid #eeee83; */
+   
     border: 2px solid #ffd852;
 }
                   

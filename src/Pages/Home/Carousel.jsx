@@ -1,18 +1,19 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import { useRef } from "react";
 
 function Carousel( {images} ) {
+  
   const [current, setCurrent] = useState(0);
-  const [autoPlay, setAutoPlay] = useState(true);
-  let timeOut = null;
+  const timeOutRef = useRef(null);
 
   useEffect(() => {
-    timeOut = autoPlay && setTimeout(slideRight, 9000);
-  
+    timeOutRef.current = setTimeout(slideRight, 9000);
+
     return () => {
-      clearTimeout(timeOut); 
+      clearTimeout(timeOutRef.current);
     };
-  }, [current, autoPlay]);
+  }, [current]);
   
   const slideRight = () => {
     setCurrent(current === images.length - 1 ? 0 : current + 1);

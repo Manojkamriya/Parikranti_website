@@ -4,7 +4,7 @@ export default function TechnicalMember(props) {
   return (
    
      <div className="technical-member">
-     <img className="img6" src={props.image} alt="error"/>
+     <img src={props.image} alt="error"/>
      <p>{props.name}</p>
  </div>
   )

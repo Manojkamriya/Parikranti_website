@@ -6,8 +6,8 @@ function SuggestionContainer() {
     <div className="suggestion-container">
        <img className="suggestion-content" src='/Images/suggestion.png' alt="" /> 
       <div className="suggestion-content">
-        <h1 className="para_S">Share your suggestion</h1>
-        <p className="para_S">Your feedback is crucial for us. It guides our improvements, shapes our products, and ensures we meet your needs. It empowers us to innovate and stay relevant. Your input fosters partnership and drives our success.We understand that achieving the SDGs requires collaboration and partnership. Your feedback fosters a sense of partnership between our NGO and the communities we serve, as well as with other organizations and stakeholders.</p>
+        <h1>Share your suggestion</h1>
+        <p>Your feedback is crucial for us. It guides our improvements, shapes our products, and ensures we meet your needs. It empowers us to innovate and stay relevant. Your input fosters partnership and drives our success.We understand that achieving the SDGs requires collaboration and partnership. Your feedback fosters a sense of partnership between our NGO and the communities we serve, as well as with other organizations and stakeholders.</p>
       </div>
     </div>
   );
@@ -15,10 +15,10 @@ function SuggestionContainer() {
 
 function SuggestionForm() {
   return (
-    <div id="suggestion-form">
-      <form>
-        <label htmlFor="goals">Choose a Goal:</label>
-        <select className='sugg-select'id="goals" name="goals">
+    <div id="suggestion-form-container">
+      <form className="suggestion-form">
+        <label>Choose a Goal:</label>
+        <select id="goals" name="goals">
           <option value="goal1">No Poverty</option>
           <option value="goal2">Zero Hunger</option>
           <option value="goal4">Good health and well-being</option>
@@ -46,7 +46,7 @@ function SuggestionForm() {
          
         </select>
         <label htmlFor="suggestion">Your Suggestion:</label><br />
-        <textarea id="suggestion" name="suggestion" rows="4"  placeholder='Enter your suggestion here' required></textarea>
+        <textarea  name="suggestion" rows="8"  placeholder='Enter your suggestion here' required></textarea>
         <input type="submit" value="Submit" />
       </form>
     </div>

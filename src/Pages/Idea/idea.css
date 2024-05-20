@@ -14,13 +14,15 @@
   justify-content: center;
   align-items: center;
 }
-h1{
+.divs h1{
   margin-top: 29px;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.page-content{
-margin: 10px 70px 70px 70px;
+.divs p{
+margin: 10px 50px 30px 50px;
 text-align: justify;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 .divs{

@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function WorkGallery() {
   return (
+    <>
+         <h1 id="heading">Our Works</h1>
     <div className="gallery">
     <div className="image-container">
         <img className="img4" src="./Images/work-6.jpg" alt="error"/>
@@ -42,5 +44,6 @@ export default function WorkGallery() {
     </div>
 
 </div>   
+</>
   )
 }

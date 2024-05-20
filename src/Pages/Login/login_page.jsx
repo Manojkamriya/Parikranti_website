@@ -8,7 +8,7 @@ export default function login_page() {
     </h1>
     <button> continue with google</button>
     <br></br>
-    <Link to="/home"><button><h3>Go Back to Home</h3></button></Link>
+    <Link to="/"><button><h3>Go Back to Home</h3></button></Link>
     </>
   )
 }

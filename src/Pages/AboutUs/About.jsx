@@ -2,49 +2,23 @@
 import './about.css';
 import WorkGallery from './WorkGallery';
 import MediaCoverage from './MediaCoverage';
+import MemberCard from './MemberCard';
 import TechnicalMember from './TechnicalMember';
-import VMF from './VMF';
+import Statements from './Statements';
 import Intro from './Intro';
+import LeaderShip from './LeaderShip';
 function About() {
   return (<>
   <div className='header-image'>
-    <img src="./Images/about_us.png" className="img3" alt="error"/>
+    <img src="./Images/about_us.png" className="aboutus-image" alt="error"/>
     </div>
-
-
-   <VMF/>
-<Intro/>
-
+         <Statements/>
+         <Intro/>
+         <LeaderShip/>
+        <WorkGallery/>
+        <MediaCoverage/>
    
-    <h1 id="goal">Leadership</h1>
-    <div className="grid-container">
-        <div className='member-card-container'>
-       <img className="about-box img7" src="./Images/image.png" alt="error"/>
-       </div>
-       <div className='member-card-container'>
-       <img className="about-box img7" src="./Images/image.png" alt="error"/>
-       </div>
-      
-       <div className='member-card-container'>
-       <img className="about-box img7" src="./Images/image.png" alt="error"/>
-       </div>
-      
-       <div className='member-card-container'>
-       <img className="about-box img7" src="./Images/image.png" alt="error"/>
-       </div>
-      
-       <div className='member-card-container'>
-       <img className="about-box img7" src="./Images/image.png" alt="error"/>
-       </div>
-          </div> 
-
-          <h1 id="goal">Our Works</h1> 
-<WorkGallery/>
-    <h1 id="goal">Media Coverage</h1> 
-    
-    <MediaCoverage/>
-   
-    <h1 id="goal">Technical Team</h1> 
+    <h1 id="heading">Technical Team</h1> 
     <div className="technical-team">
     <TechnicalMember image='./Images/akshay-joshi.jpeg' name='Akshay Joshi'/>
        <TechnicalMember image='./Images/manoj.jpg' name='Manoj Kamriya'/>
@@ -52,6 +26,7 @@ function About() {
        <TechnicalMember image='./Images/adarsh-patel.jpeg' name='Adarsh Singh Patel'/>
     </div>
    
+   <br></br> <br></br> <br></br> <br></br> <br></br> <br></br>
     </>
   );
 }

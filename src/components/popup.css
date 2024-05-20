@@ -105,6 +105,7 @@ form{
     height: 40px;
     margin: 5px;
     width: auto;
+    
 }
 .title{
     font-family: sans-serif;
@@ -168,6 +169,7 @@ option{
     border-radius: 40px;
  
    background-color: #42b72a;
+   background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
     color: #fff;
    
     font-size: 15px;

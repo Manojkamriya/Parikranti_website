@@ -82,7 +82,7 @@ body {
   cursor: pointer;
 }
 .carousel_arrow_left p, .carousel_arrow_right p{
-  margin-bottom: 6px;
+  margin: 0px;
 }
 .carousel_arrow_left {
   left: 15px;
@@ -134,13 +134,13 @@ body {
     margin-bottom: 40px;
     font-family: sans-serif,'Arial', Times, serif;
     }                          
-    .img2{
+    .goal-icon{
     height: 175px;
     width: 175px;
     transition: all 0.1s ease-in;
     border-radius: 15px;
     }
-    .img2:hover{
+    .goal-icon:hover{
       transform: scale(1.05);
       cursor: pointer;
     }
@@ -178,77 +178,80 @@ margin: 30px;
      font-size: 17px;
      margin: 0px;
     }
-     /* .para_S{
-      padding-top: 0px;
-     text-align: justify;
-      justify-content: left; 
-      font-family: 'Poppins';
-    }*/
      
-    #suggestion-form {
-      width: 500px;
+    #suggestion-form-container {
+      width: 470px;
       margin: 50px auto;
       padding: 20px;
       border-radius: 10px;
       background-color: #fff;
-      /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+      
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      justify-content: left;
     }
     
-    form {
+    .suggestion-form {
       display: flex;
       flex-direction: column;
-    }
-    
-    label {
-      width: fit-content;
+      align-items:flex-start ;
+ }
+    .suggestion-form  label{
       margin-bottom: 8px;
       font-weight: bold;
+    
       color: #333;
+      
     }
-    option{
-      font-size: 15px;
-    }
-   .sugg-select,
-   textarea {
+ 
+    .suggestion-form option, .suggestion-form select{
+      font-size: 13px;
+      font-family: 'poppins';
       width: calc(100% - 12px);
-      padding: 2px;
-     height: 40px;
-      margin-bottom: 20px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      box-sizing: border-box;
-      background-color: #f9f9f9;
+      height: 40px;
     }
-  option{
-    /* height: 10px; */
+.suggestion-form select , .suggestion-form textarea{
+  font-size: 14px;
+  padding: 2px;
+  height: 40px;
+   margin-bottom: 20px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   box-sizing: border-box;
+   background-color: #f9f9f9;
+   outline: none;
    font-family: 'poppins';
-  }
-    textarea {
-      outline: none;
-      height: auto;
+}
+.suggestion-form textarea{
+  width: calc(100% - 12px);
+      height: 100px;
       text-align: left;
       resize: vertical; 
       font-family: 'poppins';
       padding: 7px;
       font-size: 15px;
-    }
-    
+}
+.suggestion-form textarea:focus{
+  border: 1px solid rgb(53, 111, 197);
+}
+ 
     input[type="submit"] {
       padding: 10px 20px;
       background-color: #007bff;
       color: #fff;
       border: none;
+      width: calc(100% - 12px);
+      text-align: center;
       font-size: 20px;
       font-weight: 600;
       border-radius: 5px;
       cursor: pointer;
+      margin-top: 15px;
       transition: background-color 0.3s ease;
     }
     
     input[type="submit"]:hover {
       background-color: #0056b3;
-    }
+    } 
                           /* suggestion box ends*/
       
     
