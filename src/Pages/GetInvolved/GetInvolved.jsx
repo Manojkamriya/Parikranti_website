@@ -1,6 +1,5 @@
 
 import React, { useState } from 'react';
-import styled, { keyframes, css } from "styled-components";
 import '../../components/Modal.css';
 import PopUp from '../../components/PopUp';
 import LogoSlider from './LogoSlider';

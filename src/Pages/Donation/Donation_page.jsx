@@ -8,13 +8,14 @@ const Donation = () => {
 
     <div className="donation-image-container">
    <img className="donate-img" src="./Images/donate.jpg" alt="error" /></div>
-   <section id='donate-form'>
+  
    <div className="why-donate-Us-container">
-     
+   <section id='form'>
 <Content/>
+</section>
 <Form/>
     </div>
-    </section>
+
     <br></br>
               <br></br>    <br></br>
               <br></br> <br></br>    <br></br>

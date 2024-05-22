@@ -12,6 +12,7 @@
     "react-animated-numbers": "^0.18.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "^5.0.1",
     "reactstrap": "^9.2.2",
     "styled-components": "^6.1.8",

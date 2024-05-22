@@ -13,13 +13,13 @@ export default function PopUp() {
  <form>
                 <div className='my-fields'>
                 <div className='field'>
-              <label className='form_label' for="username">Username</label>
-                <input className='form_input' type='text' placeholder='Enter your name' required>
+              <label  for="username">Username</label>
+                <input  type='text' placeholder='Enter your name' required>
                 </input>
                 </div>
                 <div className='field'>
-                <label className='form_label' for="Email">Email</label>
-                <input className='form_input' type='email' placeholder='Enter your email' required>
+                <label  for="Email">Email</label>
+                <input type='email' placeholder='Enter your email' required>
                 </input>
                 
   </div>
@@ -27,12 +27,12 @@ export default function PopUp() {
 
   <div className='my-fields'>
                 <div className='field'>
-                <label className='form_label' for="phone" id='phone_no'>Phone Number:</label>
-  <input className='form_input' type="tel"  placeholder="Enter your contact no." required></input>
+                <label  for="phone" id='phone_no'>Phone Number:</label>
+  <input  type="tel"  placeholder="Enter your contact no." required></input>
                
                 </div>
                 <div className='field'>
-                <label className='form_label' for="gender">Gender</label>
+                <label  for="gender">Gender</label>
             
         <select  name="projects">
           <option value="project1">Male</option>
@@ -44,32 +44,32 @@ export default function PopUp() {
 </div>
 <div className='my-fields'>
                 <div className='field'>
-                <label className='form_label' for="username">Address</label>
-                <input className='form_input' type='text' placeholder=' Enter your Address' required>
+                <label  for="username">Address</label>
+                <input  type='text' placeholder=' Enter your Address' required>
                 </input>
                
                 </div>
                 <div className='field'>
-                <label className='form_label' for="username">Name of city</label>
-                <input className='form_input' type='text' placeholder=" Enter name of your city" required>
+                <label for="username">Name of city</label>
+                <input  type='text' placeholder=" Enter name of your city" required>
                 </input>
 </div>
 </div>       
 <div className='my-fields'>
                 <div className='field'>
-                <label className='form_label' for="username">State</label>
-                <input className='form_input' type='text' placeholder=' Enter your state name' required>
+                <label for="username">State</label>
+                <input  type='text' placeholder=' Enter your state name' required>
                 </input>
                 </div>
                 <div className='field'>
                
-                <label className='form_label' for="pin">PIN Code</label>
-  <input className='form_input' type="number" placeholder=" Enter your PIN Code" required></input>
+                <label  for="pin">PIN Code</label>
+  <input  type="number" placeholder=" Enter your PIN Code" required></input>
 </div>
 </div>      
 <div className='my-fields'>
                 <div className='field'>
-                <label className='form_label' for="blood-group">Blood Group</label>
+                <label  for="blood-group">Blood Group</label>
         <select className='form-select' name="projects">
           <option value="project1">A+</option>
           <option value="project2">A-</option>
@@ -83,7 +83,7 @@ export default function PopUp() {
                 </div>
                 <div className='field'>
                
-                <label className='form_label' for="query-topic">Query Topic</label>
+                <label  for="query-topic">Query Topic</label>
         <select  name="projects">
           <option value="project1">Internship</option>
           <option value="project2">Voluntership</option>
