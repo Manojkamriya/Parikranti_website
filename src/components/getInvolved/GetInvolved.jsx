@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import '../../components/Modal.css';
+// import '../../components/Modal.css';
 import PopUp from '../../components/PopUp';
 import LogoSlider from './LogoSlider';
 import WhyUs from "./WhyUs";

@@ -4,7 +4,7 @@ import PopUp from '../../components/PopUp';
 
 
 export default function Modal() {
-    const [modal, setModal] = useState(false);
+    const [modal, setModal] = useState(true);
   
     const toggleModal = () => {
       setModal(!modal);
@@ -18,9 +18,7 @@ export default function Modal() {
   
     return (
       <>
-        {/* <button onClick={toggleModal} className="btn-modal">
-          Open
-        </button> */}
+       
   
         {modal && (
           <div className="modal">

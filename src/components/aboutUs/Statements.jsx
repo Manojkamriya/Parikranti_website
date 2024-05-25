@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Statements() {
   return (
-    <div id="statement-container">
+    <div className="statement-container">
     <div className="statement">
        
         <h2 >Our Vision</h2>

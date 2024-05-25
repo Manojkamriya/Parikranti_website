@@ -8,24 +8,24 @@
  margin-bottom: 30px;
  object-fit: cover;
 }
-.Outer_Of_4_div{
+.info_container{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-.divs h1{
+.info h1{
   margin-top: 29px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
-.divs p{
+.info p{
 margin: 10px 50px 30px 50px;
 text-align: justify;
 font-family: Arial, Helvetica, sans-serif;
 }
 
-.divs{
+.info{
   width: 690px;
   height: 415px;
   border-radius: 19px;
@@ -34,7 +34,7 @@ font-family: Arial, Helvetica, sans-serif;
   
   box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
 }
-.divs:hover{
+.info:hover{
   /* scale: 1.009; */
   background-color: rgb(248, 244, 237);
   transition: all 0.3s ease-in-out;

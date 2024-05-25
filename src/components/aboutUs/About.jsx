@@ -1,7 +1,6 @@
 
 import './about.css';
-import WorkGallery from './WorkGallery';
-import MediaCoverage from './MediaCoverage';
+
 import MemberCard from './MemberCard';
 import TechnicalMember from './TechnicalMember';
 import Statements from './Statements';
@@ -15,8 +14,7 @@ function About() {
          <Statements/>
          <Intro/>
          <LeaderShip/>
-        <WorkGallery/>
-        <MediaCoverage/>
+      
    
     <h1 id="heading">Technical Team</h1> 
     <div className="technical-team">

@@ -1,12 +1,14 @@
 import Navbar from "./components/Navbar";
-import Home from "./Pages/Home/Home";
-import About from "./Pages/AboutUs/About";
-import GetInvolved from "./Pages/GetInvolved/GetInvolved";
-import Idea from "./Pages/Idea/Idea_S";
-import Index from "./Pages/Index_Page/Index_Page";
-import Login from "./Pages/Login/login_page";
-import Donation from "./Pages/Donation/Donation_page";
+import Home from "./components/home/Home";
+import About from "./components/aboutUs/About";
+import GetInvolved from "./components/getInvolved/GetInvolved";
+import Idea from "./components/ideaStrategy/IdeaStrategy";
+import Index from "./components/indexPage/IndexPage";
+import Login from "./components/login/loginPage";
+import Donation from "./components/donation/Donation";
 import WhatsAppIcon from "./components/WhatsAppIcon";
+import PrivacyPolicy from "./components/privacyPolicy/PrivacyPolicy";
+import TermsOfUse from "./components/termsOfUse/TermsOfUse";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 function App() {
@@ -17,11 +19,11 @@ function App() {
     },
     {
       path: "/",
-      element: (
+      element:
         <>
           <Navbar /> <Home /><WhatsAppIcon/>
         </>
-      ),
+      
     },
     {
       path: "/getInvolved",
@@ -36,37 +38,55 @@ function App() {
     
     {
       path: "/donation",
-      element: (
+      element: 
         <>
           <Navbar /> <Donation /><WhatsAppIcon/>
         </>
-      ),
+     
     },
     {
       path: "/about",
-      element: (
+      element: 
         <>
           <Navbar />
           <About /><WhatsAppIcon/>
         </>
-      ),
+     
     },
     {
       path: "/login",
-      element: (
+      element: 
         <>   <Navbar />
          <Login />
         </>
-      ),
+    
     },
     {
       path: "/idea",
-      element: (
+      element: 
         <>
           <Navbar />
           <Idea /><WhatsAppIcon/>
         </>
-      ),
+     
+    },
+    {
+      path: "/terms",
+      element: 
+        <>
+          <Navbar />
+         <TermsOfUse/>
+        </>
+     
+    },
+    {
+      path: "/policy",
+      element: 
+        <>
+          <Navbar />
+          <PrivacyPolicy/>
+        </>
+     
     },
   ]);
   return (

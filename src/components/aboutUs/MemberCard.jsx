@@ -6,7 +6,7 @@ export default function MemberCard(props) {
     <div className="flip-card-container">
     <div className="flip-card">
       <div className="flip-card-front">
-        <img src={props.image} alt="Avatar" />
+        <img src={props.image} alt="Image" />
         <h3>{props.memberName}</h3>
         <p>{props.designation}</p>
       </div>

@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import './Index_page.css';
-import '../../components/Modal.css';
+// import '../../components/Modal.css';
 import PopUp from '../../components/PopUp';
 import '../../components/popup.css';
 
-function Index_Page() {
+function IndexPage() {
   const [modal, setModal] = useState(false);
 
   const toggleModal = () => {
@@ -77,4 +77,4 @@ function Modal({ toggleModal }) {
   );
 }
 
-export default Index_Page;
+export default IndexPage;

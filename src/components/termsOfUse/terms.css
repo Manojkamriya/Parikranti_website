@@ -1,0 +1,14 @@
+.terms_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.terms_container p{
+    width: 70%;
+    text-align: left;
+    font-family: 'Arial';
+}
+.terms_container h1, .terms_container h3{
+    font-family: 'Arial';
+    text-align: left;
+}

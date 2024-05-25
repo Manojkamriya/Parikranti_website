@@ -1,8 +1,10 @@
 
 import Carousel from "./Carousel";
-import media from "./Data";
+import Media from "./data";
 import Goal from './Goal';
-import '../../components/Modal.css';
+import WorkGallery from './WorkGallery';
+import MediaCoverage from './MediaCoverage';
+// import '../../components/Modal.css';
 import Suggestion from "./Suggestion";
 import Modal from "./Modal";
 import './home.css';
@@ -10,11 +12,13 @@ import './home.css';
 function Home() {
   return (
     <div>
-      <Carousel images={media} />
+      <Carousel images={Media} />
       <Modal/>
       <h1 id="goal">Our Goals</h1>
     
       <Goal/>
+      <WorkGallery/>
+        <MediaCoverage/>
       <Suggestion/>
     </div>
   );

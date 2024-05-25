@@ -10,10 +10,11 @@ const Donation = () => {
    <img className="donate-img" src="./Images/donate.jpg" alt="error" /></div>
   
    <div className="why-donate-Us-container">
-   <section id='form'>
+  
 <Content/>
-</section>
+<section id='form'>
 <Form/>
+</section>
     </div>
 
     <br></br>

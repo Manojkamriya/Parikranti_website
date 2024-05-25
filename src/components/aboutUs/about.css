@@ -21,7 +21,7 @@ height: 485px;
  
  }
                      /*STATEMENT STARTS*/
-#statement-container{
+.statement-container{
   margin: 34px;
   display: flex;
 }
@@ -61,16 +61,12 @@ height: 485px;
 }     
 
 
-/* .img7{
-  height: 200px;
-  width: 200px;
-  } */
+
 .about-box{ 
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
  padding: 34px;
  margin: 18px 20px;
  border-radius: 13px;
- /* background: #f2f2f2; */
   margin-bottom: 20px;
   background-color: #edecec;
  
@@ -216,50 +212,8 @@ transform: scale(1.1);
 transform: rotateY(180deg);
 }
                                /*LEADERSHIP ENDS*/
-/* .img7{
-  height: 200px;
-  width: 200px;
-  } */
- .image-container{
-  overflow: hidden;
- }
-  .gallery {
-      display: grid;
-      grid-gap: 10px;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      grid-auto-rows: 200px;
-      grid-auto-flow: dense;
-      margin-left: 7%;
-      margin-right: 7%;
-    
-      width: 85%;
-  }
-  .gallery > div {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
-  .gallery > div > img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      border-radius: 5px;
-  }
-  .gallery .tall {
-      grid-row: span 2;
-  }
-  .image-container img{
-      max-width: 100%;
-      height: auto;
-      vertical-align: middle;
-      display: inline-block;
-      transition: all 0.2s ease-in-out;
-  }
-  .media-image { 
-    
-      border: 0.3px solid black;
-    
-  }
+
+
                              /*TECHNICAL TEAM STARTS*/
   .technical-team{
       display: flex;
@@ -291,7 +245,7 @@ transform: rotateY(180deg);
       object-fit: cover;
       transition: all 0.2s ease-in-out;
   }
-  .technical-member img:hover,.media-image:hover, .work-image:hover{
+  .technical-member img:hover{
   transform: scale(1.1);
    
   }
