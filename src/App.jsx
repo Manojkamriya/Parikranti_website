@@ -21,7 +21,7 @@ function App() {
       path: "/",
       element:
         <>
-          <Navbar /> <Home /><WhatsAppIcon/>
+           <Navbar />  <Home /><WhatsAppIcon/>
         </>
       
     },

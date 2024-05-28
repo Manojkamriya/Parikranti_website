@@ -1,8 +1,5 @@
-.main_div{
- height: 1600px;
- background-color: rgb(240, 246, 253);
-}
-.image_div{
+
+.image_container{
   background-image: url('/public/Images/Idea_Strategy_image.jpg');
  height: 610px;
  margin-bottom: 30px;
@@ -31,11 +28,11 @@ font-family: Arial, Helvetica, sans-serif;
   border-radius: 19px;
   background-color: whitesmoke;
   margin: 25px;
-  
+  transition: all 0.3s ease-in-out;
   box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
 }
 .info:hover{
   /* scale: 1.009; */
   background-color: rgb(248, 244, 237);
-  transition: all 0.3s ease-in-out;
+ 
 }

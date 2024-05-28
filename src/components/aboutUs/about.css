@@ -28,16 +28,15 @@ height: 485px;
  .statement{ 
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
  padding: 25px;
- margin: 8px 20px 8px 20px;
+ margin: 8px 20px 20px 20px;
  border-radius: 13px;
  background-color: #edecec;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   width: 30%;
   height: 170px;
 }
 .statement h2, .statement p{
   text-align: left;
-
   font-family: Arial, Helvetica, sans-serif;
 }
 .statement h2{
@@ -59,25 +58,22 @@ height: 485px;
   color: #313030;
 
 }     
-
-
-
-.about-box{ 
+/* .about-box{ 
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
  padding: 34px;
- margin: 18px 20px;
+ margin: 18px 20px 20px 20px;
  border-radius: 13px;
   margin-bottom: 20px;
   background-color: #edecec;
  
-}
+ */
 .intro-box{
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   padding: 20px 34px;
-  margin: 18px 20px;
+  margin: 18px 20px 20px 20px;
   border-radius: 13px;
    background: #f2f2f2;
-   margin-bottom: 20px;
+   /* margin-bottom: 20px; */
    background-color: #edecec;
   height: 260px; 
 }
@@ -125,7 +121,7 @@ height: 20px;
 width: 20px;
 margin: 3px;
 }
-.grid-container .about-box{ 
+.grid-container { 
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
  padding: 34px;
  /* margin: 18px 20px; */
@@ -207,10 +203,10 @@ margin: 20px 0px 0px 20px;
 text-align: left;
 }
 
-.about-box:hover{
+/* .about-box:hover{
 transform: scale(1.1);
 transform: rotateY(180deg);
-}
+} */
                                /*LEADERSHIP ENDS*/
 
 

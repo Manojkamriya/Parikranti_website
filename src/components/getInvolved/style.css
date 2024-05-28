@@ -1,78 +1,158 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    text-align: center;
-    padding: 0;
-    background-color: white;
-
-  }
-  
-   .gi-container{
-    width: 100%;
-    height: 445px;
-   }                  
- img {
-    width: 100%;
-    height: 100%;
-    display: block;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  text-align: center;
+  padding: 0;
+  background-color: white;
 }
 
-.gi-image{
+.gi-container {
+  width: 100%;
+  height: 445px;
+}
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.gi-image {
   opacity: 1;
 }
 
-                            /* Why-Us starts */
+                                       /* Why-Us starts */
 
-.whyUs-container{
-    display: flex;
-    justify-content: center;
+.whyUs-container {
+  display: flex;
+  justify-content: center;
 }
 
-.whyUs-content{ 
+.whyUs-content {
+  width: 620px;
+  height: 350px;
 
-    width: 620px;
-     height: 350px;
-
-    border-radius: 40px;
-    margin: 15px;
-    margin-top: 25px;
-    padding: 20px;
-    font-size: 18px;
-  
+  border-radius: 40px;
+  margin: 15px;
+  margin-top: 25px;
+  padding: 20px;
+  font-size: 18px;
 }
-.whyUs-container h1{
+.whyUs-container h1 {
   margin-bottom: 15px;
 }
-.whyUs-container p{
+.whyUs-container p {
   font-size: 17px;
 }
-.whyUs-content p, .whyUs-content h1{
+.whyUs-content p,
+.whyUs-content h1 {
   font-family: Poppins;
   text-align: left;
   margin: 0px;
 }
-.btn{
-height: 66px;
-width: 300px;
-font-size: 1.5rem;
-font-weight: 800;
-border: none;
-background-color:rgb(228, 15, 15);
-color: white;
-border-radius: 45px;
-margin: 30px;
-cursor: pointer;
-transition: all 0.3s ease-in;
-
+                                    /* Why-Us Ends */
+.btn {
+  height: 66px;
+  width: 300px;
+  font-size: 1.5rem;
+  font-weight: 800;
+  border: none;
+  background-color: rgb(228, 15, 15);
+  color: white;
+  border-radius: 45px;
+  margin: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
 }
 
-  .btn:hover{
-    background-color: white;
-      color: black;
-      cursor: pointer;
-    border: 2.5px solid rgb(228, 15, 15);
-  }
-                          
-                            /* Why-Us Ends */
+.btn:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border: 2.5px solid rgb(228, 15, 15);
+}
 
-                             
+                                  /*Logo Slider Starts*/
+.appContainer {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.appContainer h1 {
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #02203c;
+}
+.appContainer p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 40px;
+  color: #7c8e9a;
+}
+.slider-container {
+  display: flex;
+  width: 1200px;
+  overflow: hidden;
+  user-select: none;
+
+  /* mask-image: linear-gradient(
+              to right,
+              hsl(0 0% 0% / 0),
+              hsl(0 0% 0% / 1) 10%,
+              hsl(0 0% 0% / 1) 90%,
+              hsl(0 0% 0% / 0)
+            ); */
+
+  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+}
+
+.forward-slider {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  white-space: nowrap;
+  width: 100%;
+  animation: scrollX 30s linear infinite;
+}
+.backward-slider {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  white-space: nowrap;
+  width: 100%;
+  animation: scrollX 27s linear infinite;
+  animation-direction: reverse;
+  /* animation-delay: -3s; */
+}
+@keyframes scrollX {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.imageContainer {
+  display: grid;
+  place-items: center;
+  width: clamp(10rem, 1rem + 40vmin, 30rem);
+  padding: calc(clamp(10rem, 1rem + 30vmin, 30rem) / 10);
+}
+.imageContainer img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+
+  border-radius: 0.5rem;
+  aspect-ratio: 16/9;
+  padding: 5px 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+                             /*Logo Slider Ends*/

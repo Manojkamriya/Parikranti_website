@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
-export default function login_page() {
+export default function loginPage() {
   return (
    <> <h1 >
       This is login page

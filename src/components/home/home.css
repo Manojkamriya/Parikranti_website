@@ -122,7 +122,8 @@ body {
   .grid-container-goals{
     display: grid;
     grid-gap: 1rem;
-    grid-template-columns: 185px 185px 185px 185px 185px 185px;
+    /* grid-template-columns: 185px 185px 185px 185px 185px 185px; */
+    grid-template-columns: repeat(6, 185px);
     justify-content: center;
     }
     
@@ -273,9 +274,9 @@ margin: 30px;
       height: 100px;
       text-align: left;
       resize: vertical; 
-      font-family: 'poppins';
+   
       padding: 7px;
-      font-size: 15px;
+   
 }
 .suggestion-form textarea:focus{
   border: 1px solid rgb(53, 111, 197);

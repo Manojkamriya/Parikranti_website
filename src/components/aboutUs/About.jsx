@@ -1,7 +1,5 @@
 
 import './about.css';
-
-import MemberCard from './MemberCard';
 import TechnicalMember from './TechnicalMember';
 import Statements from './Statements';
 import Intro from './Intro';
@@ -20,7 +18,7 @@ function About() {
     <div className="technical-team">
     <TechnicalMember image='./Images/akshay-joshi.jpeg' name='Akshay Joshi'/>
        <TechnicalMember image='./Images/manoj.jpg' name='Manoj Kamriya'/>
-       <TechnicalMember image='./Images/abhishek5.jpeg' name='Abhishek Verma'/>
+       <TechnicalMember image='./Images/abhishek.jpeg' name='Abhishek Verma'/>
        <TechnicalMember image='./Images/adarsh-patel.jpeg' name='Adarsh Singh Patel'/>
     </div>
    

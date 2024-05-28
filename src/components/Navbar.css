@@ -53,13 +53,6 @@ body {
   #logo{
     margin-left: 20px;
   }
-  #sign img{
-    margin-top: 10px;
-    height: 35px;
-    width: 35px;
-    padding: 0px;
-    border-radius: 50%;
-  }
   #text-image{
     height: 45px;
     width: 140px;
@@ -67,6 +60,14 @@ body {
   margin: 0px;  
   border-radius: 0%;
   }
+  #sign img{
+    margin-top: 10px;
+    height: 35px;
+    width: 35px;
+    padding: 0px;
+    border-radius: 50%;
+  }
+  
   ul {
     list-style-type: none;
     margin: 0;
