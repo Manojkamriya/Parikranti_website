@@ -26,7 +26,7 @@ function IndexPage() {
       <p id="name_1">PARIKRANTI FOUNDATION</p>
 
       <div id="boxrow1">
-        <div className="item" id="box1">
+        <div className="item" id="bx1">
           <img
             id="logo2"
             src="./Images/united-social-federation.png"
