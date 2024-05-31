@@ -1,11 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  /* background-color:white; */
-  /* text-align: center; */
-}
+
 
     .header-image{
 display: flex;
@@ -31,7 +24,7 @@ height: 485px;
  margin: 8px 20px 20px 20px;
  border-radius: 13px;
  background-color: #edecec;
-  /* margin-bottom: 20px; */
+ 
   width: 30%;
   height: 170px;
 }
@@ -58,22 +51,14 @@ height: 485px;
   color: #313030;
 
 }     
-/* .about-box{ 
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
- padding: 34px;
- margin: 18px 20px 20px 20px;
- border-radius: 13px;
-  margin-bottom: 20px;
-  background-color: #edecec;
- 
- */
+
 .intro-box{
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   padding: 20px 34px;
   margin: 18px 20px 20px 20px;
   border-radius: 13px;
    background: #f2f2f2;
-   /* margin-bottom: 20px; */
+  
    background-color: #edecec;
   height: 260px; 
 }
@@ -112,7 +97,7 @@ height: 485px;
 .icon-container{
   display: flex;
   justify-content: flex-end;
-  /* padding: 20px; */
+ 
   margin-bottom: 30px;
   margin-right: 20px;
 }
@@ -121,10 +106,10 @@ height: 20px;
 width: 20px;
 margin: 3px;
 }
-.grid-container { 
+/* .grid-container { 
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
  padding: 34px;
- /* margin: 18px 20px; */
+ 
  border-radius: 13px;
  background: #f2f2f2;
   margin-bottom: 20px;
@@ -134,7 +119,7 @@ padding-bottom: 80px;
 transform-style: preserve-3d;
 backface-visibility: hidden;
 transition: all 0.4s ease-in-out;
-}
+} */
 
 .flip-card-container {
   background-color: transparent;
@@ -150,7 +135,7 @@ transition: all 0.4s ease-in-out;
   height: 100%;
   border-radius: 10px;
   text-align: center;
-  transition: transform 0.6s;
+  transition: transform 0.7s ease-in-out;
   transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
@@ -203,10 +188,7 @@ margin: 20px 0px 0px 20px;
 text-align: left;
 }
 
-/* .about-box:hover{
-transform: scale(1.1);
-transform: rotateY(180deg);
-} */
+
                                /*LEADERSHIP ENDS*/
 
 
@@ -242,7 +224,7 @@ transform: rotateY(180deg);
       transition: all 0.2s ease-in-out;
   }
   .technical-member img:hover{
-  transform: scale(1.1);
+  transform: scale(1.05);
    
   }
 

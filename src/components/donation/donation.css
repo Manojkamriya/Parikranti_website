@@ -62,6 +62,98 @@ border-radius: 0px 0px 14px 14px;
     padding: 30px;
     border-radius: 12px;
 }
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    flex-wrap: wrap;
+  
+}
+
+
+.my-fields{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+}
+.field label{
+    margin-left: 0px;
+    width: fit-content;
+    margin-bottom: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+      font-weight: 500;
+}
+.field input{
+    margin-bottom: 10px;
+    text-align: left;
+     height: 26px;
+     font-family: 'Poppins', sans-serif;
+     width: 200px;
+     font-size: 14px;
+     border-radius: 5px;
+     outline: none;
+     border: 2px solid rgb(221, 213, 213);
+}
+
+.form_label {
+    margin-left: 0px;
+  width: fit-content;
+  margin-bottom: 4px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+    font-weight: 500;
+}
+.form_input {
+   margin-bottom: 10px;
+   text-align: left;
+    height: 26px;
+    font-family: 'Poppins', sans-serif;
+    width: 200px;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid rgb(221, 213, 213);
+}
+.field select{
+    height: 26px;
+    width: 200px;
+    margin-bottom: 10px;
+    text-align: left;
+    outline: none;
+}
+.field select option{
+    text-align: left;
+    outline: none;
+}
+
+.form_textarea{
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    margin-bottom: 14px;    
+     width: 434px;
+     height: 80px;
+     outline: 0cap;
+     font-size: 14px;
+     border-radius: 5px;
+     border: 2px solid rgb(221, 213, 213);
+}
+
+.field input:focus{
+  border: 1px solid #a48139;
+}
+.form-field2{
+    display: flex;
+    justify-content: center;
+  }
+
 #donation-form label{
     margin-left: 0px;
     width: fit-content;

@@ -1,10 +1,4 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: white;
-  }
-  
+
                              /*  Carousel starts     */
   .carousel {
  position: relative;
@@ -122,7 +116,7 @@ body {
   .grid-container-goals{
     display: grid;
     grid-gap: 1rem;
-    /* grid-template-columns: 185px 185px 185px 185px 185px 185px; */
+    
     grid-template-columns: repeat(6, 185px);
     justify-content: center;
     }

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./indexPage.css";
 
-import PopUp from "../../components/PopUp";
+// import PopUp from "../../components/PopUp";
 import "../../components/popUp.css";
 
 function IndexPage() {
@@ -80,7 +80,7 @@ function Modal({ toggleModal }) {
     <div className="modal">
       <div onClick={toggleModal} className="overlay"></div>
       <div className="modal-content">
-        <PopUp />
+        {/* <PopUp /> */}
         <button className="close-modal" onClick={toggleModal}>
           <img src="./Images/cross.png" id="cross_img" alt="error"></img>
         </button>

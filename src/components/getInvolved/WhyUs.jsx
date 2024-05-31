@@ -11,8 +11,7 @@ function WhyUs() {
       </div>
       <iframe 
         className="whyUs-content"
-        width="560" 
-        height="315" 
+      
         src="https://www.youtube.com/embed/NWBHTIB6Rw4" 
         title="YouTube video player" 
         frameborder="0" 

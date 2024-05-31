@@ -1,6 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-// import {Link} from 'react-router-dom'
+
 import { HashLink as Link } from "react-router-hash-link";
 
 import "./navbar.css";
@@ -24,22 +23,22 @@ export default function Navbar() {
       </div>
 
       <ul>
-        <NavLink to="/">
+        <Link to="/">
           <li>Home</li>
-        </NavLink>
-        <NavLink to="/about">
+        </Link>
+        <Link to="/about">
           <li>About Us</li>
-        </NavLink>
-        <NavLink to="/getInvolved">
+        </Link>
+        <Link to="/getInvolved">
           <li>Get Involved</li>
-        </NavLink>
-        <NavLink to="/idea">
-          <li>Idea And strategy</li>
-        </NavLink>
-        <NavLink to="/donation">
+        </Link>
+     
+        <Link to="/donation">
           <li>Donation</li>
-        </NavLink>
-
+        </Link>
+        <Link to="/idea">
+          <li>Idea And strategy</li>
+        </Link>
         <Link to="/donation#form" smooth>
           {" "}
           <button className="donate-button">Donate Now</button>

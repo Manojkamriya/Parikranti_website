@@ -1,6 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  text-align: center;
+  padding: 0;
+  background-color: white;
+}
 
+
+body{
+  background-color: whitesmoke;
+ }
+
+* {
+  text-align: center;
+}
 .wp-icon{
- 
   background-color: rgb(0, 217, 95);
   position: fixed;
   width: 220px;

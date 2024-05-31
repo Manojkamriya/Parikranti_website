@@ -9,6 +9,7 @@ import Donation from "./donation/Donation";
 import WhatsAppIcon from "./WhatsAppIcon";
 import PrivacyPolicy from "./privacyPolicy/PrivacyPolicy";
 import TermsOfUse from "./termsOfUse/TermsOfUse";
+import PopUpForm from "./PopUpForm";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -30,6 +31,11 @@ function App() {
 					
 					</Routes>
 		<WhatsAppIcon/>
+    {/* <PopUpForm/> */}
+    <br></br>
+              <br></br>    <br></br> <br></br>
+              <br></br>    <br></br> <br></br>
+              <br></br>    <br></br>
 				</div>
 			</BrowserRouter>
     </>
