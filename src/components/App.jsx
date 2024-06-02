@@ -32,10 +32,7 @@ function App() {
 					</Routes>
 		<WhatsAppIcon/>
     {/* <PopUpForm/> */}
-    <br></br>
-              <br></br>    <br></br> <br></br>
-              <br></br>    <br></br> <br></br>
-              <br></br>    <br></br>
+   
 				</div>
 			</BrowserRouter>
     </>

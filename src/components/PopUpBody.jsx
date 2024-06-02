@@ -28,6 +28,7 @@ const PopUpBody = ({ reset, submitting }) => (
     <div className="form-field">
       <label>Full Name</label>
       <Field
+    
         name="name"
         component={TextField}
         type="text"
@@ -55,7 +56,7 @@ const PopUpBody = ({ reset, submitting }) => (
     <div className="gender-container">
       <label class="gender-title">Gender</label>
       <div className="radio">
-      <Field className='gender-category'name="gender" component={RadioGroup} options={genderOptions} /></div>
+      <Field className='gender-category' name="gender" component={RadioGroup} options={genderOptions} /></div>
     </div>
     <div className="form-field">
       <label>Blood Group</label>

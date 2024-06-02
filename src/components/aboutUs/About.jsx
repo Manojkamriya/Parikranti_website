@@ -4,6 +4,8 @@ import TechnicalMember from './TechnicalMember';
 import Statements from './Statements';
 import Intro from './Intro';
 import LeaderShip from './LeaderShip';
+import WorkGallery from './WorkGallery';
+import MediaCoverage from './MediaCoverage';
 function About() {
   return (<>
   <div className='header-image'>
@@ -12,7 +14,8 @@ function About() {
          <Statements/>
          <Intro/>
          <LeaderShip/>
-      
+         <WorkGallery/>
+        <MediaCoverage/>
    
     <h1 id="heading">Technical Team</h1> 
     <div className="technical-team">
