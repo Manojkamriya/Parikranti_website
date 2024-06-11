@@ -1,42 +1,3 @@
-// import React, { useState } from 'react'
-// import PopUp from '../../components/PopUpForm';
-
-
-// export default function Modal() {
-//     const [modal, setModal] = useState(true);
-  
-//     const toggleModal = () => {
-//       setModal(!modal);
-//     };
-  
-//     if(modal) {
-//       document.body.classList.add('active-modal')
-//     } else {
-//       document.body.classList.remove('active-modal')
-//     }
-  
-//     return (
-//       <>
-       
-  
-//         {modal && (
-//           <div className="modal">
-//             <div onClick={toggleModal} className="overlay"></div>
-//             <div className="modal-content">
-// <PopUp/>
-// <button className="close-modal" onClick={toggleModal}>
-// <img src='./Images/cross.png' id='cross_img' alt='error'></img>
-//               </button>
-//               </div>
-//           </div>
-//         )}
-       
-//       </>
-//     );
-//   }
-
-
-// import PopUpForm from '../../components/PopUpForm';
 
 import React, { useState, useRef, useEffect } from 'react';
 
@@ -53,7 +14,7 @@ function PopUp({ togglePopUp, popupRef }) {
        
         <PopUpForm/>
         <button className="close-modal" onClick={togglePopUp}>
-          <img src='./Images/cross.png' id='cross_img' alt='error'></img>
+          <img src='./Images/cross.png' alt='error'></img>
         </button>
          </div>
          </div>
@@ -61,7 +22,7 @@ function PopUp({ togglePopUp, popupRef }) {
 
   );
 }
-function App() {
+function Modal() {
   const [popUp, setPopUp] = useState(true);
   const popupRef = useRef(null);
 
@@ -96,7 +57,7 @@ function App() {
 
 }
 
-export default App;
+export default Modal;
 
 
   

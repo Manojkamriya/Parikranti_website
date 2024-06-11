@@ -13,7 +13,7 @@ export default function LoginPage() {
     <>
       <h1>This is the login page</h1>
      
-     
+     <button>Continue with google</button>
       <br />
       <Link to="/">
         <button><h3>Go Back to Home</h3></button>

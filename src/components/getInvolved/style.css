@@ -9,9 +9,6 @@ img {
   display: block;
 }
 
-.gi-image {
-  opacity: 1;
-}
 
                                        /* Why-Us starts */
 
@@ -56,13 +53,14 @@ img {
   border-radius: 45px;
   margin: 30px;
   cursor: pointer;
+  /* font: 800 1.5rem sans-serif; */
   transition: all 0.3s ease-in;
 }
 
 .btn:hover {
   background-color: white;
   color: black;
-  cursor: pointer;
+  
   border: 2.5px solid rgb(228, 15, 15);
 }
 

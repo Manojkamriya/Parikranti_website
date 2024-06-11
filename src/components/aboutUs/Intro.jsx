@@ -2,7 +2,7 @@ import React from 'react'
 import MemberCard from './MemberCard'
 function Intro() {
   return (
-    <div id="intro">
+    <div className="intro">
     <div className="intro-box">
        
         <h2 >Parikranti Foundation</h2>
