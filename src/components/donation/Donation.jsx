@@ -2,6 +2,7 @@ import './donation.css'
 import React from 'react';
 import Form from './Form';
 import Content from './Content';
+import Numbers from './Numbers'
 const Donation = () => {
   return (
    <>
@@ -16,12 +17,13 @@ const Donation = () => {
 <Form/>
 </section>
     </div>
-
     <br></br>
-              <br></br>    <br></br>
+<Numbers/>
+    
+              {/* <br></br>    <br></br>
               <br></br> <br></br>    <br></br>
-              <br></br>
- 
+              <br></br> 
+  */}
    </>
 
   );

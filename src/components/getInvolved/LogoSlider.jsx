@@ -29,14 +29,14 @@ export default function Slider() {
             <div className="forward-slider">
               {row1.map((el) => (
                 <div className="imageContainer">
-                  <img src={el} alt="image" />
+                  <img src={el} alt="" />
                 </div>
               ))}
             </div>
             <div className="forward-slider">
               {row1.map((el) => (
                 <div className="imageContainer">
-                  <img src={el} alt="image" />
+                  <img src={el} alt="" />
                 </div>
               ))}
             </div>
@@ -45,14 +45,14 @@ export default function Slider() {
             <div className="backward-slider">
               {row2.map((el) => (
                 <div className="imageContainer">
-                  <img src={el} alt="image" />
+                  <img src={el} alt="" />
                 </div>
               ))}
             </div>
             <div className="backward-slider">
               {row2.map((el) => (
                 <div className="imageContainer">
-                  <img src={el} alt="image" />
+                  <img src={el} alt="" />
                 </div>
               ))}
             </div>

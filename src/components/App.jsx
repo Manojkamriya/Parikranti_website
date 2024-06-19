@@ -9,7 +9,8 @@ import Donation from "./donation/Donation";
 import WhatsAppIcon from "./WhatsAppIcon";
 import PrivacyPolicy from "./privacyPolicy/PrivacyPolicy";
 import TermsOfUse from "./termsOfUse/TermsOfUse";
-import PopUpForm from "./PopUpForm";
+// import PopUpForm from "./PopUpForm";
+import Footer from "./Footer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -32,7 +33,7 @@ function App() {
 					</Routes>
 		<WhatsAppIcon/>
     {/* <PopUpForm/> */}
-   
+   <Footer/>
 				</div>
 			</BrowserRouter>
     </>

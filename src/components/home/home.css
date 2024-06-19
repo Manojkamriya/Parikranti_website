@@ -124,7 +124,14 @@
     margin-top: 50px;
     margin-bottom: 40px;
     font-family: sans-serif,'Arial', Times, serif;
-    }                          
+    } 
+    #goal{
+      text-align: center;
+      font-size: 60px;
+      font-family: "Helvetica", sans-serif;
+      color: #313030;
+      position: relative;
+    }                         
     .goal-icon{
     height: 100%;
     width: 100%;

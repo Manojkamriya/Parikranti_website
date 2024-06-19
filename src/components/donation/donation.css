@@ -1,106 +1,101 @@
-.donation-image-container{
-    width:100%;
-    height: 450px;
-    display: flex;
-    justify-content: center;
-    
+.donation-image-container {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
 }
- .donation-image-container img{
-height: 100%;
-width: 93%;
-border-radius: 0px 0px 14px 14px;
+.donation-image-container img {
+  height: 100%;
+  width: 93%;
+  border-radius: 0px 0px 14px 14px;
 }
-                          /*Why Donate US Content starts*/
+/*Why Donate US Content starts*/
 
-.why-donate-Us-container{
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-top: -20px;
-   flex-wrap: wrap;
+.why-donate-Us-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: -20px;
+  flex-wrap: wrap;
 }
 
-.why-donate-Us-content{ 
-   width: 620px;
-     height: auto;
+.why-donate-Us-content {
+  width: 620px;
+  height: auto;
   margin: 15px;
-    margin-top: 25px;
-    margin-right: 140px;
-    padding: 20px;
-    font-size: 25px;
-  
+  margin-top: 25px;
+  margin-right: 140px;
+  padding: 20px;
+  font-size: 25px;
 }
-.why-donate-Us-content h1{
-    text-align: left;
+.why-donate-Us-content h1 {
+  text-align: left;
 }
-#donate-text{
-    color: #3371ee;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   
+#donate-text {
+  color: #3371ee;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-#payment{
-    font-size: 16px;
-    margin: 5px;
+#payment {
+  font-size: 16px;
+  margin: 5px;
 }
-.why-donate-Us-content p{
-    font-family: Poppins;
-    width: 670px;
-    text-align: left;
+.why-donate-Us-content p {
+  font-family: Poppins;
+  width: 670px;
+  text-align: left;
   font-size: 16px;
   margin-bottom: 18px;
-  
-}
- 
-                      /*Why Donate US Content Ends*/
-                        /* Donation-Form Starts*/
-
-#donation-form{
-  
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    
-    margin-top: 90px;
-    padding: 30px;
-    border-radius: 12px;
 }
 
-form{
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    flex-wrap: wrap;
-  
+/*Why Donate US Content Ends*/
+/* Donation-Form Starts*/
+
+#donation-form {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  margin-top: 90px;
+  padding: 30px;
+  border-radius: 12px;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  flex-wrap: wrap;
+}
 
-.my-fields{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
+.my-fields {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
 }
-.field{
-    display: flex;
-    flex-direction: column;
+.field {
+  display: flex;
+  flex-direction: column;
 }
-.field label, .form_label{
-    margin-left: 0px;
-    width: fit-content;
-    margin-bottom: 4px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-      font-weight: 500;
+.field label,
+.form_label {
+  margin-left: 0px;
+  width: fit-content;
+  margin-bottom: 4px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
 }
-.field input, .form_input{
-    margin-bottom: 10px;
-    text-align: left;
-     height: 26px;
-     font-family: 'Poppins', sans-serif;
-     width: 200px;
-     font-size: 14px;
-     border-radius: 5px;
-     outline: none;
-     border: 2px solid rgb(221, 213, 213);
+.field input,
+.form_input {
+  margin-bottom: 10px;
+  text-align: left;
+  height: 26px;
+  font-family: "Poppins", sans-serif;
+  width: 200px;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid rgb(221, 213, 213);
 }
 
 /* .form_label {
@@ -122,113 +117,147 @@ form{
     outline: none;
     border: 2px solid rgb(221, 213, 213);
 } */
-.field select{
-    height: 26px;
-    width: 200px;
-    margin-bottom: 10px;
-    text-align: left;
-    outline: none;
+.field select {
+  height: 26px;
+  width: 200px;
+  margin-bottom: 10px;
+  text-align: left;
+  outline: none;
 }
-.field select option{
-    text-align: left;
-    outline: none;
-}
-
-.form_textarea{
-    font-family: 'Poppins', sans-serif;
-    text-align: left;
-    margin-bottom: 14px;    
-     width: 434px;
-     height: 80px;
-     outline: 0cap;
-     font-size: 14px;
-     border-radius: 5px;
-     border: 2px solid rgb(221, 213, 213);
+.field select option {
+  text-align: left;
+  outline: none;
 }
 
-.field input:focus{
+.form_textarea {
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  margin-bottom: 14px;
+  width: 434px;
+  height: 80px;
+  outline: 0cap;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 2px solid rgb(221, 213, 213);
+}
+
+.field input:focus {
   border: 1px solid #a48139;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.13);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
 }
-.form-field2{
-    display: flex;
-    justify-content: center;
-  }
-
-#donation-form label{
-    margin-left: 0px;
-    width: fit-content;
-    margin-bottom: 4px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-      font-weight: 500;
-}
-.parikranti-image{
-    width: 160px;
-    height: 40px;
-   margin-inline: auto;
-    margin-bottom: 10px;
-}
-.pan-field{
-    display: flex;
-    flex-direction: column;
-    margin-left: 2px;
-}
-.checkbox-container{
-    display: flex;
-    flex-direction: row;
-}
-#checkbox{
-    display: inline-block;
-    height: 17px;
-    width: 17px;
-    margin-right: 7px;
-}
-.declare{
-    height: auto;
-    width: 400px;
-    font-size: 14px;
-    text-align: left;
-}
-.request{
-    height: auto;
-    width: 450px;
-    font-size: 14px;
-    text-align: left;
-    margin-bottom: 20px;
-    color: red;
-    font-weight: 700;
-}
-.form-image{
-    width: 400px;
-    height: 40px;
-    margin: 10px;
+.form-field2 {
+  display: flex;
+  justify-content: center;
 }
 
-
-.donate{
-    /* outline: none; */
-    height: 40px;
-    text-align: center;
-    width: 80%;
-    border-radius: 40px;
-   background-color: #eeee33;
-  
-   color: #232f3e;
-    font-size: 15px;
-    font-weight: 700;
-    
-    margin: 10px;
-    cursor: pointer;
-    border: none;
-    transition: all 0.25s ease;
+#donation-form label {
+  margin-left: 0px;
+  width: fit-content;
+  margin-bottom: 4px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.parikranti-image {
+  width: 160px;
+  height: 40px;
+  margin-inline: auto;
+  margin-bottom: 10px;
+}
+.pan-field {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2px;
+}
+.checkbox-container {
+  display: flex;
+  flex-direction: row;
+}
+#checkbox {
+  display: inline-block;
+  height: 17px;
+  width: 17px;
+  margin-right: 7px;
+}
+.declare {
+  height: auto;
+  width: 400px;
+  font-size: 14px;
+  text-align: left;
+}
+.request {
+  height: auto;
+  width: 450px;
+  font-size: 14px;
+  text-align: left;
+  margin-bottom: 20px;
+  color: red;
+  font-weight: 700;
+}
+.form-image {
+  width: 400px;
+  height: 40px;
+  margin: 10px;
 }
 
-.donate:hover{
-    background: #fff;
-    color: #232f3e;
-   
-    border: 2px solid #ffd852;
+.donate {
+  /* outline: none; */
+  height: 40px;
+  text-align: center;
+  width: 80%;
+  border-radius: 40px;
+  background-color: #eeee33;
+
+  color: #232f3e;
+  font-size: 15px;
+  font-weight: 700;
+
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.25s ease;
 }
-                  
-                        /* Donation-Form Ends*/
+
+.donate:hover {
+  background: #fff;
+  color: #232f3e;
+
+  border: 2px solid #ffd852;
+}
+
+/* Donation-Form Ends*/
+
+.numbers {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 230px;
+  background-color: #ebebeb;
+}
+.numberCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  width: 270px;
+  border-radius: 7px;
+  transition: all 0.3s ease-in-out;
+}
+.numberCard:hover {
+  background-color: white;
+  box-shadow: rgb(3, 3, 0) 0px 20px 30px -10px;
+}
+.numberCard h1 {
+  color: #18a790;
+  font-size: 40px;
+  margin: 0px;
+  /* color: #17b677; */
+}
+.numberCard p {
+  font-size: 20px;
+  margin: 0px;
+  color: #636363;
+}

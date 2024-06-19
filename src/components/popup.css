@@ -156,7 +156,7 @@ padding: 0; /* background-color: #1ECD97; */
     font-family: 'Poppins', sans-serif;
 }
 
-.form-field input,.form-field option, .form-field select{
+.form-field input, .form-field select,.form-field option{
     height: 40px;
     width: 97%;
     border-radius: 7px;
@@ -246,7 +246,7 @@ padding: 0; /* background-color: #1ECD97; */
     width: 100%;
     margin-top: 1px;
     padding: 10px 0px;
-    background: #6fd649;
+    background: #44a91e;
     color: #fff;
     border: 0;
     outline: none;
