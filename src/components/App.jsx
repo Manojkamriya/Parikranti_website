@@ -32,7 +32,6 @@ function App() {
 					
 					</Routes>
 		<WhatsAppIcon/>
-    {/* <PopUpForm/> */}
    <Footer/>
 				</div>
 			</BrowserRouter>

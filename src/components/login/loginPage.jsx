@@ -16,7 +16,7 @@ export default function LoginPage() {
      <button>Continue with google</button>
       <br />
       <Link to="/">
-        <button><h3>Go Back to Home</h3></button>
+        <button className='login-button'><h3>Go Back to Home</h3></button>
       </Link>
       
     </>

@@ -73,8 +73,8 @@
 }
 
 ul li .icon2{
-  height: 1rem;
-  width: 1rem;
+  height: 1.5rem;
+  width: 1.5rem;
   color: black;
   outline: none;
   margin-right: 0.5rem;
@@ -84,10 +84,7 @@ ul li .icon2{
   text-align: left;
 }
 
-a{
-  text-decoration: none;
-  color: black;
-}
+
 
 .footer {
   background-color: #f1f1f1;
@@ -105,8 +102,8 @@ a{
 
 .footer-section {
   flex: 1;
-  min-width: 200px;
-  margin: 10px;
+  /* min-width: 200px; */
+  margin: 0px;
   margin-top: 40px;
 }
 
@@ -130,6 +127,7 @@ a{
   margin: 5px 0;
   color:black;
   display: flex;
+  align-items: center;
 }
 
 .footer-bottom {

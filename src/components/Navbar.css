@@ -1,128 +1,100 @@
+                              /*NAVBAR STARTS*/
 
-                        /*NAVBAR STARTS*/
-  
-  #navbar {
-    background-color: whitesmoke;
-   
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    position: sticky;
-    top: 0%;
+#navbar {
+  background-color: whitesmoke;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: sticky;
+  top: 0%;
   z-index: 997;
-    height: 70px;
-  }
-  .active{
-    background-color: #ddd;
-    color: black;
-  }
-  #logo-container{
-    display: flex;
-  float:left;
-  margin-right: 20px;  
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.active {
+  background-color: #ddd;
+  color: black;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* margin-left: 10px; */
+}
+.logo-container img {
+  height: 47px;
+  margin-left: 10px;
+}
+.logo-container a img {
   border-radius: 50%;
-  }
-  
-  #sign{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    float:right;
-    margin-right: 20px;  
-    border-radius: 50%;
-    }
-  #sign p{
-    color: #333;
-    font-size: 12px;
-    font-weight: 400;
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-  }
-  #logo, #sign img{
-    height: 45px;
-    margin: 3px;
-    padding-top: 10px;
-    width:auto;
-    border-radius: 50%;
-  }
-  #logo{
-    margin-left: 20px;
-  }
-  #text-image{
-    height: 45px;
-    width: 140px;
-    padding: 11px 12px;
-  margin: 0px;  
-  border-radius: 0%;
-  }
-  #sign img{
-    margin-top: 10px;
-    height: 32px;
-    width: 32px;
-    padding: 0px;
-    border-radius: 50%;
-  }
-  
- #navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  
-  #navbar li {
-    float: left;
-  }
-  
-#navbar  li  {
-    display: block;
-    color: #333;
-    font-weight: 400;
-    font-size: 17px;
-    text-align: center;
-    padding: 17px 20px;
-    margin-top: 9px;
+}
+.search-panel input {
+  height: 37px;
+  width: 250px;
+  border: none;
+  outline: none;
+  text-align: left;
+  border-radius: 5px;
+  border: 1px solid #a48139;
+  padding: 5px 7px;
+}
+.search-panel input:focus {
+  border: 1px solid #775819;
+}
+.menu-items ul {
+  list-style: none;
+  display: flex;
+  margin: 0px;
+}
+.menu-items ul li {
+  margin-inline: 2px;
+}
+.menu-items ul li a {
+  color: #333;
+  font-weight: 400;
+  font-size: 17px;
+  text-align: center;
+  padding: 17px 20px;
+  margin-top: 9px;
   border-radius: 40px;
-    text-decoration: none;
-    transition: all 0.05s ease-in-out;
-  }
-  
- #navbar li:hover {
-    background-color: #1e1d1d;
-    /* border-bottom: 2px solid black;
-  font-weight: 500; */
-    /* color: black; */
-    color: white;
-  }
-  #search-panel {
-    float: left;
-    margin: 9px;
-border: 1px solid #a48139;
-    margin-top: 14px;
-   
-    border-radius: 5px;
-  }
-  
-  #search-input {
-    padding: 11px;
-    border: none;
-    width: 250px;
-   outline: none;
-    text-align: left;
-    border-radius: 5px;
-  }
-  
-  .donate-button{
-   height: 50px;
-   width: 160px;
-   border-radius: 30px;
-   cursor: pointer;
-  
-   background-image: linear-gradient(to left, #00c6fb 0%, #005bea 100%);
-border: none;
-font-size: 17px;
-color: white;
-margin-top: 9px;
-margin-left: 50px;
-font-family: 'Arial';
-  }
- 
+  text-decoration: none;
+  transition: all 0.05s ease-in-out;
+}
+.menu-items ul li a:hover {
+  background-color: #1e1d1d;
+
+  color: white;
+}
+.donate-button {
+  height: 50px;
+  width: 160px;
+  border-radius: 30px;
+  cursor: pointer;
+  background-image: linear-gradient(to left, #00c6fb 0%, #005bea 100%);
+  border: none;
+  font-size: 17px;
+  color: white;
+  font-family: "Arial";
+}
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+.sign-up img {
+  height: 45px;
+  margin: 0px;
+  border-radius: 50%;
+}
+
+.sign-up p {
+  color: #333;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}

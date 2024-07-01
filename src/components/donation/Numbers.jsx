@@ -4,27 +4,28 @@ function Numbers() {
   return (
     <>
       <div className="numbers">
- 
+      <NumberCounter
+  n='1000'
+  title='Donars'
+  />
    <NumberCounter
-  n='5000'
-  title='Amount Received'
+  n='500000'
+  title='Amount Collected'
   />
   <NumberCounter
-  n='1000'
+  n='400000'
   title='Amount Used'
   />
+   <NumberCounter
+  n='100000'
+  title='Amount Remaining'
+  />
     <NumberCounter
-  n='90'
-  title='Receipts and accounts'
+  n='900'
+  title='Receipts and balance sheets'
   />
-   <NumberCounter
-  n='100'
-  title='Donations'
-  />
-   <NumberCounter
-  n='100'
-  title='Donations'
-  />
+  
+  
   </div>
     </>
   )

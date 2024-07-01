@@ -233,8 +233,9 @@ form {
   gap: 10px;
   align-items: center;
   flex-wrap: wrap;
-  height: 230px;
+  height: 200px;
   background-color: #ebebeb;
+
 }
 .numberCard {
   display: flex;
