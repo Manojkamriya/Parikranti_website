@@ -10,6 +10,7 @@ function TechnicalTeam() {
        <TechnicalMember image='./Images/abhishek.jpeg' name='Abhishek Verma'/>
        <TechnicalMember image='./Images/adarsh-patel.jpeg' name='Adarsh Singh Patel'/>
     </div>
+    
     </>
   )
 }

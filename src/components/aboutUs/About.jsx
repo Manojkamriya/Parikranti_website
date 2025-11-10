@@ -17,7 +17,7 @@ function About() {
          <LeaderShip/>
          <WorkGallery/>
         <MediaCoverage/>
-   <TechnicalTeam/>
+   {/* <TechnicalTeam/> */}
    
    
    <br></br> <br></br> <br></br> <br></br> <br></br> <br></br>

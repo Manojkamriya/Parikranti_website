@@ -15,3 +15,19 @@ a{
   text-decoration: none;
   color: black;
 }
+.fade-enter {
+  opacity: 0;
+  transform: translateY(20px); /* Optional: Slightly move down */
+}
+.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 1000ms, transform 1000ms; /* Transition effect */
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 1000ms; /* Fade out effect */
+}

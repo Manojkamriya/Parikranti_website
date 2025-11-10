@@ -237,9 +237,7 @@
   border-radius: 9px;
   width: 280px;
 }
-.technical-member p {
-  margin-top: 13px;
-}
+
 .technical-member img {
   height: 85%;
   width: 100%;
@@ -247,6 +245,9 @@
   display: inline-block;
   object-fit: cover;
   transition: all 0.2s ease-in-out;
+}
+.technical-member p {
+  margin-top: 13px;
 }
 .technical-member img:hover {
   transform: scale(1.05);

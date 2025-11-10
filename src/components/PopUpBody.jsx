@@ -52,7 +52,7 @@ const PopUpBody = ({ reset, submitting }) => (
           />
         </div>
         <div className="gender-container">
-          <label class="gender-title">Gender</label>
+          <label className="gender-title">Gender</label>
           <div className="radio">
             <Field
               className="gender-category"
